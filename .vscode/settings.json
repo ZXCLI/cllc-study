@@ -2,6 +2,7 @@
     "commentTranslate.source": "Google",
     "files.associations": {
         "clllc.h": "c",
-        "clllc_hal.h": "c"
+        "clllc_hal.h": "c",
+        "sfo_v8.h": "c"
     }
 }
