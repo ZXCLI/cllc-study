@@ -419,15 +419,15 @@ static inline void CLLLC_HAL_setupInterrupt(uint16_t powerFlow)
 
 
     EPWM_setInterruptSource(CLLLC_ISR1_PERIPHERAL_TRIG_BASE,
-                            EPWM_INT_TBCTR_U_CMPC);//ISR1的中断源设置为TBCTR_U_CMPC
+                            EPWM_INT_TBCTR_U_CMPC);//ISR1的中断源设置为EPWM1的TBCTR_U_CMPC
     CLLLC_HAL_setupISR1Trigger(CLLLC_MIN_PWM_SWITCHING_FREQUENCY_HZ * 0.8);
     EPWM_setInterruptEventCount(CLLLC_ISR1_PERIPHERAL_TRIG_BASE, 1);
     EPWM_clearEventTriggerInterruptFlag(CLLLC_ISR1_PERIPHERAL_TRIG_BASE);
-    EPWM_enableInterrupt(CLLLC_ISR1_PERIPHERAL_TRIG_BASE);
+    EPWM_enableInterrupt(CLLLC_ISR1_PERIPHERAL_TRIG_BASE);//使能EPWM1的TBCTR_U_CMPC中断
 
 
 
-    ECAP_enableInterrupt(CLLLC_ISR2_ECAP_BASE, ECAP_ISR_SOURCE_COUNTER_PERIOD);
+    ECAP_enableInterrupt(CLLLC_ISR2_ECAP_BASE, ECAP_ISR_SOURCE_COUNTER_PERIOD);//使能ECAP1的计数器周期中断
 
 
     CPUTimer_enableInterrupt(CLLLC_ISR3_TIMEBASE);
@@ -438,6 +438,8 @@ static inline void CLLLC_HAL_setupInterrupt(uint16_t powerFlow)
     ADC_enableContinuousMode(CLLLC_ISR3_PERIPHERAL_TRIG_BASE, ADC_INT_NUMBER2);
     ADC_clearInterruptStatus(CLLLC_ISR3_PERIPHERAL_TRIG_BASE, ADC_INT_NUMBER2);
 
+
+    //Interrupt_enable的优先级是最高的
     //
     //Note the ISR1 is enabled in the PIE, though the peripheral interrupt is
     //not triggered until later

@@ -181,7 +181,7 @@ void main(void)
     // ISR Mapping
     //
     CLLLC_HAL_setupInterrupt(
-            CLLLC_powerFlowStateActive.CLLLC_PowerFlowState_Enum);
+            CLLLC_powerFlowStateActive.CLLLC_PowerFlowState_Enum);//最后才设置中断并开启中断
 
     //
     // Enable PWM Clocks
@@ -274,7 +274,7 @@ interrupt void ISR2_secToPrimPowerFlow(void)
 }
 #endif
 
-interrupt void ISR3(void)       //CPU_TIMER0中断,用于执行低速任务
+interrupt void ISR3(void)       //CPU_TIMER2中断,用于执行低速任务
 {
     EINT;
     CLLLC_HAL_setProfilingGPIO3();
@@ -292,7 +292,9 @@ interrupt void ISR3(void)       //CPU_TIMER0中断,用于执行低速任务
 //
 //--------------------------------- FRAME WORK --------------------------------
 //
-void A0(void)
+
+// 在CPUTIMER0和1都没有溢出的时候，Alpha_State_Ptr每个循环在A0和B0之间切换
+void A0(void)//状态机A由CPU_TIMER0管理
 {
     //
     // loop rate synchronizer for A-tasks
@@ -311,7 +313,7 @@ void A0(void)
     Alpha_State_Ptr = &B0;      // Comment out to allow only A tasks
 }
 
-void B0(void)
+void B0(void)//状态机B由CPU_TIMER1管理
 {
     //
     // loop rate synchronizer for B-tasks
