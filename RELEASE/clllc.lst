@@ -1,11 +1,11 @@
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE    1
 
        1              ;***************************************************************
        2              ;* TMS320C2000 G3 C/C++ Codegen                               PC v22.6.0.LTS *
-       3              ;* Date/Time created: Wed Aug 14 19:15:23 2024                 *
+       3              ;* Date/Time created: Mon Sep  2 13:26:24 2024                 *
        4              ;***************************************************************
        5                      .compiler_opts --abi=eabi --cla_support=cla2 --diag_wrap=off --float_support=fpu32 --hll_source=on --
        6                      .asg    XAR2, FP
@@ -58,7 +58,7 @@ clllc.asm                                                            PAGE    1
       53                      .dwendtag $C$DW$5
       54              
       55              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE    2
@@ -118,7 +118,7 @@ clllc.asm                                                            PAGE    2
      108                      .dwattr $C$DW$12, DW_AT_name("CLLLC_pwmISRTrig_ticks")
      109                      .dwattr $C$DW$12, DW_AT_linkage_name("CLLLC_pwmISRTrig_ticks")
      110                      .dwattr $C$DW$12, DW_AT_location[DW_OP_addr ||CLLLC_pwmISRTrig_ticks||]
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE    3
@@ -178,7 +178,7 @@ clllc.asm                                                            PAGE    3
      163                      .dwattr $C$DW$17, DW_AT_external
      164                      .dwattr $C$DW$17, DW_AT_decl_file("../clllc.c")
      165                      .dwattr $C$DW$17, DW_AT_decl_line(0x26)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE    4
@@ -238,7 +238,7 @@ clllc.asm                                                            PAGE    4
      218              $C$DW$22        .dwtag  DW_TAG_variable
      219                      .dwattr $C$DW$22, DW_AT_name("CLLLC_giOut")
      220                      .dwattr $C$DW$22, DW_AT_linkage_name("CLLLC_giOut")
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE    5
@@ -298,7 +298,7 @@ clllc.asm                                                            PAGE    5
      273                      .dwattr $C$DW$26, DW_AT_decl_line(0x33)
      274                      .dwattr $C$DW$26, DW_AT_decl_column(0x0b)
      275              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE    6
@@ -358,7 +358,7 @@ clllc.asm                                                            PAGE    6
      328                      .dwattr $C$DW$31, DW_AT_linkage_name("CLLLC_pwmFrequencyRef_Hz")
      329                      .dwattr $C$DW$31, DW_AT_location[DW_OP_addr ||CLLLC_pwmFrequencyRef_Hz||]
      330                      .dwattr $C$DW$31, DW_AT_type(*$C$DW$T$124)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE    7
@@ -418,7 +418,7 @@ clllc.asm                                                            PAGE    7
      383              
      384                      .global ||CLLLC_pwmPeriodSlewed_pu||
      385 0000002e       ||CLLLC_pwmPeriodSlewed_pu||:   .usect  "controlVariables",2,1,1
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE    8
@@ -478,7 +478,7 @@ clllc.asm                                                            PAGE    8
      438                      .dwattr $C$DW$40, DW_AT_type(*$C$DW$T$45)
      439                      .dwattr $C$DW$40, DW_AT_external
      440                      .dwattr $C$DW$40, DW_AT_decl_file("../clllc.c")
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE    9
@@ -538,7 +538,7 @@ clllc.asm                                                            PAGE    9
      493 00000040       ||CLLLC_iPrimSensedCalXvariable_pu||:   .usect  "controlVariables",2,1,1
      494              $C$DW$45        .dwtag  DW_TAG_variable
      495                      .dwattr $C$DW$45, DW_AT_name("CLLLC_iPrimSensedCalXvariable_pu")
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   10
@@ -598,7 +598,7 @@ clllc.asm                                                            PAGE   10
      548                      .dwattr $C$DW$49, DW_AT_decl_file("../clllc.c")
      549                      .dwattr $C$DW$49, DW_AT_decl_line(0x56)
      550                      .dwattr $C$DW$49, DW_AT_decl_column(0x0b)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   11
@@ -658,7 +658,7 @@ clllc.asm                                                            PAGE   11
      603                      .dwattr $C$DW$54, DW_AT_name("CLLLC_vPrimRef_Volts")
      604                      .dwattr $C$DW$54, DW_AT_linkage_name("CLLLC_vPrimRef_Volts")
      605                      .dwattr $C$DW$54, DW_AT_location[DW_OP_addr ||CLLLC_vPrimRef_Volts||]
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   12
@@ -718,7 +718,7 @@ clllc.asm                                                            PAGE   12
      658                      .dwattr $C$DW$58, DW_AT_decl_column(0x0b)
      659              
      660                      .global ||CLLLC_pwmDutyAPrim_ticks||
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   13
@@ -778,7 +778,7 @@ clllc.asm                                                            PAGE   13
      713                      .dwattr $C$DW$63, DW_AT_location[DW_OP_addr ||CLLLC_pwmDeadBandFEDPrimRef_ns||]
      714                      .dwattr $C$DW$63, DW_AT_type(*$C$DW$T$124)
      715                      .dwattr $C$DW$63, DW_AT_external
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   14
@@ -838,7 +838,7 @@ clllc.asm                                                            PAGE   14
      768                      .global ||CLLLC_iSecSensedCalIntercept_pu||
      769 0000006e       ||CLLLC_iSecSensedCalIntercept_pu||:    .usect  "controlVariables",2,1,1
      770              $C$DW$68        .dwtag  DW_TAG_variable
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   15
@@ -898,7 +898,7 @@ clllc.asm                                                            PAGE   15
      823                      .dwattr $C$DW$72, DW_AT_external
      824                      .dwattr $C$DW$72, DW_AT_decl_file("../clllc.c")
      825                      .dwattr $C$DW$72, DW_AT_decl_line(0x7a)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   16
@@ -958,7 +958,7 @@ clllc.asm                                                            PAGE   16
      878              $C$DW$77        .dwtag  DW_TAG_variable
      879                      .dwattr $C$DW$77, DW_AT_name("CLLLC_vSecRef_pu")
      880                      .dwattr $C$DW$77, DW_AT_linkage_name("CLLLC_vSecRef_pu")
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   17
@@ -1018,7 +1018,7 @@ clllc.asm                                                            PAGE   17
      933                      .dwattr $C$DW$81, DW_AT_decl_line(0x87)
      934                      .dwattr $C$DW$81, DW_AT_decl_column(0x0a)
      935              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   18
@@ -1078,7 +1078,7 @@ clllc.asm                                                            PAGE   18
      988                      .dwattr $C$DW$86, DW_AT_linkage_name("CLLLC_pwmPhaseShiftPrimSec_ns")
      989                      .dwattr $C$DW$86, DW_AT_location[DW_OP_addr ||CLLLC_pwmPhaseShiftPrimSec_ns||]
      990                      .dwattr $C$DW$86, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   19
@@ -1138,7 +1138,7 @@ clllc.asm                                                            PAGE   19
     1043              
     1044                      .global ||CLLLC_dVal2||
     1045 00000004               .bss    ||CLLLC_dVal2||,2,1,1
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   20
@@ -1198,7 +1198,7 @@ clllc.asm                                                            PAGE   20
     1098                      .dwendtag $C$DW$95
     1099              
     1100              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   21
@@ -1258,7 +1258,7 @@ clllc.asm                                                            PAGE   21
     1153                      .dwattr $C$DW$101, DW_AT_name("CLLLC_vPrimSensedAvg_pu")
     1154                      .dwattr $C$DW$101, DW_AT_linkage_name("CLLLC_vPrimSensedAvg_pu")
     1155                      .dwattr $C$DW$101, DW_AT_location[DW_OP_addr ||CLLLC_vPrimSensedAvg_pu||]
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   22
@@ -1318,7 +1318,7 @@ clllc.asm                                                            PAGE   22
     1208                      .dwattr $C$DW$105, DW_AT_decl_column(0x0a)
     1209              
     1210                      .global ||CLLLC_gi||
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   23
@@ -1378,7 +1378,7 @@ clllc.asm                                                            PAGE   23
     1263                      .dwattr $C$DW$110, DW_AT_location[DW_OP_addr ||CLLLC_dBuff3||]
     1264                      .dwattr $C$DW$110, DW_AT_type(*$C$DW$T$123)
     1265                      .dwattr $C$DW$110, DW_AT_external
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   24
@@ -1438,7 +1438,7 @@ clllc.asm                                                            PAGE   24
     1318              
     1319              ||__signbitl||:
     1320              ;* AR4   assigned to e
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   25
@@ -1498,7 +1498,7 @@ clllc.asm                                                            PAGE   25
     1368                      .global ||__signbitf||
     1369              
     1370              $C$DW$117       .dwtag  DW_TAG_subprogram
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   26
@@ -1558,7 +1558,7 @@ clllc.asm                                                            PAGE   26
     1420 0000000a 0006          LRETR     ; [CPU_ALU] 
     1421                      ; return occurs ; [] 
     1422                      .dwattr $C$DW$117, DW_AT_TI_end_file("C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/includ
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   27
@@ -1618,7 +1618,7 @@ clllc.asm                                                            PAGE   27
     1475 00000003 2B42          MOV       *-SP[2],#0            ; [CPU_ALU] |364| 
     1476 00000004 2B41          MOV       *-SP[1],#0            ; [CPU_ALU] |364| 
     1477 00000005 A3C4          MOVL      P,*+XAR4[0]           ; [CPU_ALU] |364| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   28
@@ -1678,7 +1678,7 @@ clllc.asm                                                            PAGE   28
     1525                      .dwfde $C$DW$CIE, ||__relaxed_sqrtf||
     1526              $C$DW$127       .dwtag  DW_TAG_formal_parameter
     1527                      .dwattr $C$DW$127, DW_AT_name("x")
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   29
@@ -1738,7 +1738,7 @@ clllc.asm                                                            PAGE   29
     1579                      .dwattr $C$DW$130, DW_AT_decl_line(0x108)
     1580                      .dwattr $C$DW$130, DW_AT_decl_column(0x10)
     1581                      .dwattr $C$DW$130, DW_AT_TI_max_frame_size(-2)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   30
@@ -1798,7 +1798,7 @@ clllc.asm                                                            PAGE   30
     1632                      .dwattr $C$DW$134, DW_AT_name("__relaxed_fmodf")
     1633                      .dwattr $C$DW$134, DW_AT_low_pc(||__relaxed_fmodf||)
     1634                      .dwattr $C$DW$134, DW_AT_high_pc(0x00)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   31
@@ -1858,7 +1858,7 @@ clllc.asm                                                            PAGE   31
     1686 00000006 E688          F32TOI32  R2H,R2H               ; [CPU_FPU] |286| 
          00000007 0012 
     1687 00000008 7700          NOP       ; [CPU_ALU] 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   32
@@ -1918,7 +1918,7 @@ clllc.asm                                                            PAGE   32
     1737              ;* FUNCTION ENVIRONMENT                                        *
     1738              ;*                                                             *
     1739              ;* FUNCTION PROPERTIES                                         *
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   33
@@ -1978,7 +1978,7 @@ clllc.asm                                                            PAGE   33
     1791                      .dwattr $C$DW$147, DW_AT_type(*$C$DW$T$16)
     1792                      .dwattr $C$DW$147, DW_AT_location[DW_OP_regx 0x2f]
     1793              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   34
@@ -2038,7 +2038,7 @@ clllc.asm                                                            PAGE   34
     1845              $C$DW$151       .dwtag  DW_TAG_formal_parameter
     1846                      .dwattr $C$DW$151, DW_AT_name("x")
     1847                      .dwattr $C$DW$151, DW_AT_type(*$C$DW$T$16)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   35
@@ -2098,7 +2098,7 @@ clllc.asm                                                            PAGE   35
     1898                      .dwattr $C$DW$154, DW_AT_decl_file("C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include/
     1899                      .dwattr $C$DW$154, DW_AT_decl_line(0x112)
     1900                      .dwattr $C$DW$154, DW_AT_decl_column(0x10)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   36
@@ -2158,7 +2158,7 @@ clllc.asm                                                            PAGE   36
     1948              
     1949 00000014 0006          LRETR     ; [CPU_ALU] 
     1950                      ; return occurs ; [] 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   37
@@ -2218,7 +2218,7 @@ clllc.asm                                                            PAGE   37
     2003              $C$DW$162       .dwtag  DW_TAG_variable
     2004                      .dwattr $C$DW$162, DW_AT_name("x")
     2005                      .dwattr $C$DW$162, DW_AT_type(*$C$DW$T$122)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   38
@@ -2278,7 +2278,7 @@ clllc.asm                                                            PAGE   38
     2054                      .dwfde $C$DW$CIE, ||__isnormall||
     2055              $C$DW$165       .dwtag  DW_TAG_formal_parameter
     2056                      .dwattr $C$DW$165, DW_AT_name("e")
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   39
@@ -2338,7 +2338,7 @@ clllc.asm                                                            PAGE   39
     2105 00000014 BE00          MOVB      XAR6,#0               ; [CPU_ALU] |360| 
     2106 00000015 5200          CMPB      AL,#0                 ; [CPU_ALU] |360| 
     2107 00000016 610E          B         ||$C$L1||,EQ          ; [CPU_ALU] |360| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   40
@@ -2398,7 +2398,7 @@ clllc.asm                                                            PAGE   40
     2156              
     2157              
     2158              ;***************************************************************
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   41
@@ -2458,7 +2458,7 @@ clllc.asm                                                            PAGE   41
     2206 00000000               .sect   ".text:__isnormal"
     2207                      .clink
     2208                      .global ||__isnormal||
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   42
@@ -2518,7 +2518,7 @@ clllc.asm                                                            PAGE   42
     2260 00000009 2B42          MOV       *-SP[2],#0            ; [CPU_ALU] |352| 
     2261 0000000a 565B          LSR64     ACC:P,T               ; [CPU_ALU] |352| 
     2262 0000000b 2B41          MOV       *-SP[1],#0            ; [CPU_FPU] |352| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   43
@@ -2578,7 +2578,7 @@ clllc.asm                                                            PAGE   43
     2308                      .dwattr $C$DW$178, DW_AT_name("__isnanl")
     2309                      .dwattr $C$DW$178, DW_AT_low_pc(||__isnanl||)
     2310                      .dwattr $C$DW$178, DW_AT_high_pc(0x00)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   44
@@ -2638,7 +2638,7 @@ clllc.asm                                                            PAGE   44
     2360 0000000e 0FAB          CMPL      ACC,P                 ; [CPU_ALU] |348| 
     2361 0000000f 6013          B         ||$C$L4||,NEQ         ; [CPU_ALU] |348| 
     2362                      ; branchcc occurs ; [] |348| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   45
@@ -2698,7 +2698,7 @@ clllc.asm                                                            PAGE   45
     2410                      .dwattr $C$DW$183, DW_AT_decl_line(0x158)
     2411                      .dwattr $C$DW$183, DW_AT_decl_column(0x18)
     2412                      .dwattr $C$DW$183, DW_AT_TI_max_frame_size(-2)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   46
@@ -2758,7 +2758,7 @@ clllc.asm                                                            PAGE   46
     2461 00000010 0006          LRETR     ; [CPU_ALU] 
     2462                      ; return occurs ; [] 
     2463                      .dwattr $C$DW$183, DW_AT_TI_end_file("C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/includ
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   47
@@ -2818,7 +2818,7 @@ clllc.asm                                                            PAGE   47
     2516 00000001 C5C4          MOVL      XAR7,*+XAR4[0]        ; [CPU_ALU] |342| 
     2517 00000002 06D4          MOVL      ACC,*+XAR4[2]         ; [CPU_ALU] |342| 
     2518 00000003 28AC          MOV       T,#48                 ; [CPU_ALU] |342| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   48
@@ -2878,7 +2878,7 @@ clllc.asm                                                            PAGE   48
     2563              
     2564 00000000               .sect   ".text:__isinfl"
     2565                      .clink
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   49
@@ -2938,7 +2938,7 @@ clllc.asm                                                            PAGE   49
     2617 00000008 565B          LSR64     ACC:P,T               ; [CPU_ALU] |379| 
     2618 00000009 2BAA          MOV       PH,#0                 ; [CPU_ALU] |379| 
     2619 0000000a 18AB          AND       PL,#0x7ff0            ; [CPU_ALU] |379| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   50
@@ -2998,7 +2998,7 @@ clllc.asm                                                            PAGE   50
     2665                      .dwattr $C$DW$197, DW_AT_low_pc(||__isinff||)
     2666                      .dwattr $C$DW$197, DW_AT_high_pc(0x00)
     2667                      .dwattr $C$DW$197, DW_AT_linkage_name("__isinff")
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   51
@@ -3058,7 +3058,7 @@ clllc.asm                                                            PAGE   51
     2716 0000000f       ||$C$L8||:    
     2717 0000000f 92A6          MOV       AL,AR6                ; [CPU_ALU] |375| 
     2718              $C$DW$200       .dwtag  DW_TAG_TI_branch
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   52
@@ -3118,7 +3118,7 @@ clllc.asm                                                            PAGE   52
     2771              
     2772                      .dwcfi  cfa_offset, -2
     2773                      .dwcfi  save_reg_to_mem, 26, 0
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   53
@@ -3178,7 +3178,7 @@ clllc.asm                                                            PAGE   53
     2818                      ; return occurs ; [] 
     2819                      .dwattr $C$DW$201, DW_AT_TI_end_file("C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/includ
     2820                      .dwattr $C$DW$201, DW_AT_TI_end_line(0x179)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   54
@@ -3238,7 +3238,7 @@ clllc.asm                                                            PAGE   54
     2872 00000005 18AB          AND       PL,#0x7ff0            ; [CPU_ALU] |339| 
          00000006 7FF0 
     2873 00000007 80AB          MOVZ      AR7,PL                ; [CPU_ALU] |339| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   55
@@ -3298,7 +3298,7 @@ clllc.asm                                                            PAGE   55
     2924              ||__isfinitef||:
     2925              ;* R0    assigned to f
     2926              $C$DW$212       .dwtag  DW_TAG_variable
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   56
@@ -3358,7 +3358,7 @@ clllc.asm                                                            PAGE   56
     2975                      .dwattr $C$DW$215, DW_AT_location[DW_OP_reg12]
     2976              
     2977              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   57
@@ -3418,7 +3418,7 @@ clllc.asm                                                            PAGE   57
     3026                      .dwattr $C$DW$218, DW_AT_low_pc(||__fpclassifyl||)
     3027                      .dwattr $C$DW$218, DW_AT_high_pc(0x00)
     3028                      .dwattr $C$DW$218, DW_AT_linkage_name("__fpclassifyl")
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   58
@@ -3478,7 +3478,7 @@ clllc.asm                                                            PAGE   58
     3080 0000000a A8A9          MOVL      ACC,XAR4              ; [CPU_ALU] |436| 
     3081 0000000b 565B          LSR64     ACC:P,T               ; [CPU_ALU] |436| 
     3082 0000000c 18AB          AND       PL,#0x7ff0            ; [CPU_ALU] |436| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   59
@@ -3538,7 +3538,7 @@ clllc.asm                                                            PAGE   59
     3127 00000035 18AA          AND       PH,#0                 ; [CPU_ALU] |436| 
          00000036 0000 
     3128              $C$DW$223       .dwtag  DW_TAG_TI_branch
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   60
@@ -3598,7 +3598,7 @@ clllc.asm                                                            PAGE   60
     3174                      ; return occurs ; [] 
     3175                      .dwattr $C$DW$218, DW_AT_TI_end_file("C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/includ
     3176                      .dwattr $C$DW$218, DW_AT_TI_end_line(0x1bd)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   61
@@ -3658,7 +3658,7 @@ clllc.asm                                                            PAGE   61
          00000003 7F80 
     3228 00000004 88A9          MOVZ      AR6,AL                ; [CPU_ALU] |402| 
     3229 00000005 FF20          MOV       ACC,#32640            ; [CPU_ALU] |402| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   62
@@ -3718,7 +3718,7 @@ clllc.asm                                                            PAGE   62
     3279                      .dwcfi  remember_state
     3280 0000001e 28A9          MOV       AL,#-2                ; [CPU_ALU] |402| 
          0000001f FFFE 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   63
@@ -3778,7 +3778,7 @@ clllc.asm                                                            PAGE   63
     3333              ;***************************************************************
     3334              
     3335              ||__fpclassify||:
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   64
@@ -3838,7 +3838,7 @@ clllc.asm                                                            PAGE   64
     3382                      .dwattr $C$DW$238, DW_AT_name("__c28xabi_cmpull")
     3383                      .dwattr $C$DW$238, DW_AT_TI_call
     3384              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   65
@@ -3898,7 +3898,7 @@ clllc.asm                                                            PAGE   65
     3430 00000045 18AB          AND       PL,#65535             ; [CPU_ALU] |419| 
          00000046 FFFF 
     3431 00000047 18AA          AND       PH,#65535             ; [CPU_ALU] |419| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   66
@@ -3958,7 +3958,7 @@ clllc.asm                                                            PAGE   66
     3481              ;***************************************************************
     3482              ;* FNAME: CLLLC_updateBoardStatus       FR SIZE:   0           *
     3483              ;*                                                             *
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   67
@@ -4018,7 +4018,7 @@ clllc.asm                                                            PAGE   67
     3533              
     3534 00000010 7640!         LCR       #||XBAR_getInputFlagStatus|| ; [CPU_ALU] |167| 
          00000011 0000 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   68
@@ -4078,7 +4078,7 @@ clllc.asm                                                            PAGE   68
          00000025 0000 
     3583                      .dwpsn  file "../clllc.c",line 464,column 5,is_stmt,isa 0
     3584 00000026 9200!         MOV       AL,@||CLLLC_tripFlag|| ; [CPU_ALU] |464| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   69
@@ -4138,7 +4138,7 @@ clllc.asm                                                            PAGE   69
     3632                      .dwattr $C$DW$255, DW_AT_TI_call
     3633              
     3634 00000037 7640!         LCR       #||XBAR_clearInputFlag|| ; [CPU_ALU] |164| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   70
@@ -4198,7 +4198,7 @@ clllc.asm                                                            PAGE   70
     3683              ;*                                                             *
     3684              ;* FUNCTION ENVIRONMENT                                        *
     3685              ;*                                                             *
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   71
@@ -4258,7 +4258,7 @@ clllc.asm                                                            PAGE   71
     3736              ;* AR1   assigned to $O$C1
     3737                      .dwcfi  cfa_offset, -2
     3738                      .dwcfi  save_reg_to_mem, 26, 0
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   72
@@ -4318,7 +4318,7 @@ clllc.asm                                                            PAGE   72
     3788                      .dwattr $C$DW$264, DW_AT_decl_column(0x06)
     3789                      .dwattr $C$DW$264, DW_AT_TI_max_frame_size(-8)
     3790                      .dwpsn  file "../clllc.c",line 186,column 1,is_stmt,address ||CLLLC_runISR3||,isa 0
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   73
@@ -4378,7 +4378,7 @@ clllc.asm                                                            PAGE   73
     3840                      .dwpsn  file "C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE_F28004x/libraries/uti
     3841 00000059 E2AF!         MOV32     R0H,@$BLOCKED(||CLLLC_iPrimSensedAvg_pu||) ; [CPU_FPU] |99| 
          0000005a 0000 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   74
@@ -4438,7 +4438,7 @@ clllc.asm                                                            PAGE   74
     3873 00000089 E203!         MOV32     @$BLOCKED(||CLLLC_vSecSensedAvg_pu||),R1H ; [CPU_FPU] |99| 
          0000008a 0100 
     3874                      .dwpsn  file "../clllc.c",line 195,column 5,is_stmt,isa 0
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   75
@@ -4498,7 +4498,7 @@ clllc.asm                                                            PAGE   75
          000000b6 0000 
     3906                      .dwpsn  file "../clllc.c",line 205,column 13,is_stmt,isa 0
     3907              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   76
@@ -4558,7 +4558,7 @@ clllc.asm                                                            PAGE   76
     3946 000000d5 E805          MOVIZ     R0H,#46741            ; [CPU_FPU] |218| 
          000000d6 B4A8 
     3947 000000d7 E809          MOVXI     R0H,#8573             ; [CPU_FPU] |218| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   77
@@ -4618,7 +4618,7 @@ clllc.asm                                                            PAGE   77
     3983 000000fe E802          MOVIZ     R5H,#19646            ; [CPU_FPU] |630| 
          000000ff 65F5 
     3984 00000100 E2AF!         MOV32     R3H,@||CLLLC_pwmDeadBandFEDPrimRef_ns|| ; [CPU_FPU] |630| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   78
@@ -4678,7 +4678,7 @@ clllc.asm                                                            PAGE   78
     4019 00000125 18A9          AND       AL,#65024             ; [CPU_ALU] |633| 
          00000126 FE00 
     4020                      .dwpsn  file "..\clllc.h",line 628,column 5,is_stmt,isa 0
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   79
@@ -4738,7 +4738,7 @@ clllc.asm                                                            PAGE   79
     4067                      .dwattr $C$DW$268, DW_AT_decl_line(0x126)
     4068                      .dwattr $C$DW$268, DW_AT_decl_column(0x06)
     4069                      .dwattr $C$DW$268, DW_AT_TI_max_frame_size(-10)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   80
@@ -4798,7 +4798,7 @@ clllc.asm                                                            PAGE   80
     4115                      .dwcfi  cfa_offset, -10
     4116                      .dwpsn  file "C:\Users\ZXC\Documents\mcu project\ti-project\clllc_nonpowerSUITE_F28004x\libraries\DCL
     4117 00000147 7608          PUSH      ST1                   ; [CPU_ALU] |163| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   81
@@ -4858,7 +4858,7 @@ clllc.asm                                                            PAGE   81
     4157                      .dwpsn  file "../clllc.c",line 323,column 9,is_stmt,isa 0
     4158 00000171 E805          MOVIZ     R0H,#49028            ; [CPU_FPU] |323| 
          00000172 FC20 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   82
@@ -4918,7 +4918,7 @@ clllc.asm                                                            PAGE   82
          00000197 071E 
     4198 00000198 E203!         MOV32     @$BLOCKED(||CLLLC_gv||)+28,R6H ; [CPU_FPU] |1076| 
          00000199 061C 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   83
@@ -4978,7 +4978,7 @@ clllc.asm                                                            PAGE   83
          000001c0 0000 
     4235                      .dwpsn  file "../clllc.c",line 414,column 5,is_stmt,isa 0
     4236 000001c1 9200!         MOV       AL,@||CLLLC_powerFlowState|| ; [CPU_ALU] |414| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   84
@@ -5038,7 +5038,7 @@ clllc.asm                                                            PAGE   84
     4276                      .dwpsn  file "../clllc.c",line 380,column 5,is_stmt,isa 0
     4277 000001e4 E203!         MOV32     @||CLLLC_vPrimRef_pu||,R5H ; [CPU_FPU] |380| 
          000001e5 0500 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   85
@@ -5098,7 +5098,7 @@ clllc.asm                                                            PAGE   85
     4314 00000209 2B16!         MOV       @$BLOCKED(||CLLLC_dLog1||)+22,#0 ; [CPU_ALU] |137| 
     4315                      .dwpsn  file "C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE_F28004x/libraries/uti
     4316 0000020a 56BF!         MOVB      @$BLOCKED(||CLLLC_dLog1||)+23,#100,UNC ; [CPU_ALU] |138| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   86
@@ -5158,7 +5158,7 @@ clllc.asm                                                            PAGE   86
     4354 0000022e 761F!         MOVW      DP,#||CLLLC_pwmPhaseShiftPrimSecRef_ns|| ; [CPU_ARAU] 
          0000022f 0000 
     4355                      .dwpsn  file "../clllc.c",line 397,column 5,is_stmt,isa 0
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   87
@@ -5218,7 +5218,7 @@ clllc.asm                                                            PAGE   87
     4388 00000259 E203!         MOV32     @||CLLLC_vSecRefSlewed_pu||,R1H ; [CPU_FPU] |377| 
          0000025a 0100 
     4389                      .dwpsn  file "../clllc.c",line 396,column 5,is_stmt,isa 0
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   88
@@ -5278,7 +5278,7 @@ clllc.asm                                                            PAGE   88
     4425                      .dwpsn  file "../clllc.c",line 411,column 5,is_stmt,isa 0
     4426 00000280 E203!         MOV32     @||CLLLC_vSecSensed_pu||,R6H ; [CPU_FPU] |411| 
          00000281 0600 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   89
@@ -5338,7 +5338,7 @@ clllc.asm                                                            PAGE   89
     4461                      .dwpsn  file "C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE_F28004x/libraries/uti
     4462 000002a6 E80E          MOVXI     R6H,#55050            ; [CPU_FPU] |90| 
          000002a7 B856 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   90
@@ -5398,7 +5398,7 @@ clllc.asm                                                            PAGE   90
     4495 000002d1 5202          CMPB      AL,#2                 ; [CPU_ALU] |422| 
     4496 000002d2 6032          B         ||$C$L35||,NEQ        ; [CPU_ALU] |422| 
     4497                      ; branchcc occurs ; [] |422| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   91
@@ -5458,7 +5458,7 @@ clllc.asm                                                            PAGE   91
     4533 000002f6 E203!         MOV32     @||CLLLC_pwmDutyPrimRef_pu||,R2H ; [CPU_FPU] |418| 
          000002f7 0200 
     4534                      .dwpsn  file "../clllc.c",line 417,column 9,is_stmt,isa 0
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   92
@@ -5518,7 +5518,7 @@ clllc.asm                                                            PAGE   92
     4571                      .dwpsn  file "../clllc.c",line 445,column 5,is_stmt,isa 0
     4572 0000031b 2B00!         MOV       @||CLLLC_commandSentTo_AC_DC||,#0 ; [CPU_ALU] |445| 
     4573                      .dwpsn  file "../clllc.c",line 446,column 5,is_stmt,isa 0
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   93
@@ -5578,7 +5578,7 @@ clllc.asm                                                            PAGE   93
          00000340 06BE 
     4611                      .dwcfi  cfa_offset, -6
     4612                      .dwcfi  restore_reg, 67
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   94
@@ -5638,7 +5638,7 @@ clllc.asm                                                            PAGE   94
     4657                      .dwattr $C$DW$272, DW_AT_TI_max_frame_size(-2)
     4658                      .dwpsn  file "../clllc.c",line 612,column 1,is_stmt,address ||CLLLC_changeSynchronousRectifierPwmBeha
     4659              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   95
@@ -5698,7 +5698,7 @@ clllc.asm                                                            PAGE   95
     4710 00000365 6139          B         ||$C$L36||,EQ         ; [CPU_ALU] |216| 
     4711                      ; branchcc occurs ; [] |216| 
     4712                      .dwpsn  file "C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE_F28004x/device/driver
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   96
@@ -5758,7 +5758,7 @@ clllc.asm                                                            PAGE   96
     4744 00000393 1AA9          OR        AL,#0x0400            ; [CPU_ALU] |4275| 
          00000394 0400 
     4745 00000395 F4A9          MOV       *(0:0x4187),AL        ; [CPU_ALU] |4275| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   97
@@ -5818,7 +5818,7 @@ clllc.asm                                                            PAGE   97
          000003c0 4386 
     4779                      .dwpsn  file "C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE_F28004x/device/driver
     4780 000003c1 F5A9          MOV       AL,*(0:0x4385)        ; [CPU_ALU] |4223| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   98
@@ -5878,7 +5878,7 @@ clllc.asm                                                            PAGE   98
          000003e6 FFFF 
     4820                      .dwpsn  file "..\clllc_hal.h",line 207,column 9,is_stmt,isa 0
     4821 000003e7 28A9          MOV       AL,#65535             ; [CPU_ALU] |207| 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE   99
@@ -5938,7 +5938,7 @@ clllc.asm                                                            PAGE   99
     4860 00000407 E802          MOVIZ     R0H,#17058            ; [CPU_FPU] |630| 
          00000408 1510 
     4861 00000409 761F!         MOVW      DP,#||CLLLC_pwmPhaseShiftPrimSecRef_ns|| ; [CPU_ARAU] 
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  100
@@ -5998,7 +5998,7 @@ clllc.asm                                                            PAGE  100
     4911                      .endgroup
     4912                      .group    "__isfinitel", 1
     4913                      .gmember  ".text:__isfinitel"
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  101
@@ -6058,7 +6058,7 @@ clllc.asm                                                            PAGE  101
     4966                      .group    "__signbit", 1
     4967                      .gmember  ".text:__signbit"
     4968                      .endgroup
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  102
@@ -6118,7 +6118,7 @@ clllc.asm                                                            PAGE  102
     5021              
     5022              $C$DW$278       .dwtag  DW_TAG_enumerator
     5023                      .dwattr $C$DW$278, DW_AT_name("Lab1_CLA")
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  103
@@ -6178,7 +6178,7 @@ clllc.asm                                                            PAGE  103
     5076                      .dwattr $C$DW$285, DW_AT_decl_column(0x09)
     5077              
     5078              $C$DW$286       .dwtag  DW_TAG_enumerator
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  104
@@ -6238,7 +6238,7 @@ clllc.asm                                                            PAGE  104
     5131                      .dwattr $C$DW$293, DW_AT_decl_line(0xcc)
     5132                      .dwattr $C$DW$293, DW_AT_decl_column(0x09)
     5133              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  105
@@ -6298,7 +6298,7 @@ clllc.asm                                                            PAGE  105
     5186                      .dwattr $C$DW$299, DW_AT_decl_line(0xdb)
     5187                      .dwattr $C$DW$299, DW_AT_decl_column(0x09)
     5188              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  106
@@ -6358,7 +6358,7 @@ clllc.asm                                                            PAGE  106
     5241              $C$DW$T$34      .dwtag  DW_TAG_enumeration_type
     5242                      .dwattr $C$DW$T$34, DW_AT_byte_size(0x01)
     5243              $C$DW$304       .dwtag  DW_TAG_enumerator
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  107
@@ -6418,7 +6418,7 @@ clllc.asm                                                            PAGE  107
     5296                      .dwattr $C$DW$309, DW_AT_decl_column(0x09)
     5297              
     5298                      .dwattr $C$DW$T$36, DW_AT_decl_file("..\clllc.h")
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  108
@@ -6478,7 +6478,7 @@ clllc.asm                                                            PAGE  108
     5351                      .dwattr $C$DW$T$54, DW_AT_type(*$C$DW$T$53)
     5352                      .dwattr $C$DW$T$54, DW_AT_decl_file("C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUIT
     5353                      .dwattr $C$DW$T$54, DW_AT_decl_line(0x344)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  109
@@ -6538,7 +6538,7 @@ clllc.asm                                                            PAGE  109
     5406              
     5407              $C$DW$TU$56     .dwtag  DW_TAG_type_unit
     5408                      .dwmtype  $C$DW$T$56
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  110
@@ -6598,7 +6598,7 @@ clllc.asm                                                            PAGE  110
     5461                      .dwattr $C$DW$324, DW_AT_const_value(0x05)
     5462                      .dwattr $C$DW$324, DW_AT_decl_file("C:\Users\ZXC\Documents\mcu project\ti-project\clllc_nonpowerSUITE
     5463                      .dwattr $C$DW$324, DW_AT_decl_line(0x1fe)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  111
@@ -6658,7 +6658,7 @@ clllc.asm                                                            PAGE  111
     5516                      .dwattr $C$DW$332, DW_AT_name("XBAR_INPUT_FLG_CMPSS7_CTRIPH")
     5517                      .dwattr $C$DW$332, DW_AT_const_value(0x0d)
     5518                      .dwattr $C$DW$332, DW_AT_decl_file("C:\Users\ZXC\Documents\mcu project\ti-project\clllc_nonpowerSUITE
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  112
@@ -6718,7 +6718,7 @@ clllc.asm                                                            PAGE  112
     5571              $C$DW$340       .dwtag  DW_TAG_enumerator
     5572                      .dwattr $C$DW$340, DW_AT_name("XBAR_INPUT_FLG_CMPSS3_CTRIPOUTH")
     5573                      .dwattr $C$DW$340, DW_AT_const_value(0x15)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  113
@@ -6778,7 +6778,7 @@ clllc.asm                                                            PAGE  113
     5626              
     5627              $C$DW$348       .dwtag  DW_TAG_enumerator
     5628                      .dwattr $C$DW$348, DW_AT_name("XBAR_INPUT_FLG_CMPSS7_CTRIPOUTH")
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  114
@@ -6838,7 +6838,7 @@ clllc.asm                                                            PAGE  114
     5681                      .dwattr $C$DW$355, DW_AT_decl_column(0x05)
     5682              
     5683              $C$DW$356       .dwtag  DW_TAG_enumerator
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  115
@@ -6898,7 +6898,7 @@ clllc.asm                                                            PAGE  115
     5736                      .dwattr $C$DW$363, DW_AT_decl_line(0x228)
     5737                      .dwattr $C$DW$363, DW_AT_decl_column(0x05)
     5738              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  116
@@ -6958,7 +6958,7 @@ clllc.asm                                                            PAGE  116
     5791                      .dwattr $C$DW$371, DW_AT_decl_file("C:\Users\ZXC\Documents\mcu project\ti-project\clllc_nonpowerSUITE
     5792                      .dwattr $C$DW$371, DW_AT_decl_line(0x230)
     5793                      .dwattr $C$DW$371, DW_AT_decl_column(0x05)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  117
@@ -7018,7 +7018,7 @@ clllc.asm                                                            PAGE  117
     5846                      .dwattr $C$DW$379, DW_AT_const_value(0x11c)
     5847                      .dwattr $C$DW$379, DW_AT_decl_file("C:\Users\ZXC\Documents\mcu project\ti-project\clllc_nonpowerSUITE
     5848                      .dwattr $C$DW$379, DW_AT_decl_line(0x238)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  118
@@ -7078,7 +7078,7 @@ clllc.asm                                                            PAGE  118
     5901                      .dwattr $C$DW$387, DW_AT_name("XBAR_INPUT_FLG_ADCDEVT2")
     5902                      .dwattr $C$DW$387, DW_AT_const_value(0x204)
     5903                      .dwattr $C$DW$387, DW_AT_decl_file("C:\Users\ZXC\Documents\mcu project\ti-project\clllc_nonpowerSUITE
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  119
@@ -7138,7 +7138,7 @@ clllc.asm                                                            PAGE  119
     5956              $C$DW$395       .dwtag  DW_TAG_enumerator
     5957                      .dwattr $C$DW$395, DW_AT_name("XBAR_INPUT_FLG_SD1FLT3_COMPH")
     5958                      .dwattr $C$DW$395, DW_AT_const_value(0x20c)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  120
@@ -7198,7 +7198,7 @@ clllc.asm                                                            PAGE  120
     6011              
     6012              $C$DW$403       .dwtag  DW_TAG_enumerator
     6013                      .dwattr $C$DW$403, DW_AT_name("XBAR_INPUT_FLG_SD1FLT3_COMPZ")
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  121
@@ -7258,7 +7258,7 @@ clllc.asm                                                            PAGE  121
     6066                      .dwattr $C$DW$410, DW_AT_decl_column(0x05)
     6067              
     6068              $C$DW$411       .dwtag  DW_TAG_enumerator
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  122
@@ -7318,7 +7318,7 @@ clllc.asm                                                            PAGE  122
     6121              
     6122              
     6123              $C$DW$TU$23     .dwtag  DW_TAG_type_unit
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  123
@@ -7378,7 +7378,7 @@ clllc.asm                                                            PAGE  123
     6176                      .dwattr $C$DW$421, DW_AT_accessibility(DW_ACCESS_public)
     6177                      .dwattr $C$DW$421, DW_AT_decl_file("C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE
     6178                      .dwattr $C$DW$421, DW_AT_decl_line(0x47)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  124
@@ -7438,7 +7438,7 @@ clllc.asm                                                            PAGE  124
     6231                      .dwattr $C$DW$427, DW_AT_decl_file("C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE
     6232                      .dwattr $C$DW$427, DW_AT_decl_line(0x4d)
     6233                      .dwattr $C$DW$427, DW_AT_decl_column(0x0a)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  125
@@ -7498,7 +7498,7 @@ clllc.asm                                                            PAGE  125
     6286                      .dwattr $C$DW$T$60, DW_AT_decl_file("C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUIT
     6287                      .dwattr $C$DW$T$60, DW_AT_decl_line(0x51)
     6288                      .dwattr $C$DW$T$60, DW_AT_decl_column(0x03)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  126
@@ -7558,7 +7558,7 @@ clllc.asm                                                            PAGE  126
     6341                      .dwattr $C$DW$434, DW_AT_type(*$C$DW$T$20)
     6342                      .dwattr $C$DW$434, DW_AT_name("h_magVect")
     6343                      .dwattr $C$DW$434, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  127
@@ -7618,7 +7618,7 @@ clllc.asm                                                            PAGE  127
     6396                      .dwattr $C$DW$440, DW_AT_data_member_location[DW_OP_plus_uconst 0xc]
     6397                      .dwattr $C$DW$440, DW_AT_accessibility(DW_ACCESS_public)
     6398                      .dwattr $C$DW$440, DW_AT_decl_file("C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  128
@@ -7678,7 +7678,7 @@ clllc.asm                                                            PAGE  128
     6451                      .dwattr $C$DW$446, DW_AT_accessibility(DW_ACCESS_public)
     6452                      .dwattr $C$DW$446, DW_AT_decl_file("C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE
     6453                      .dwattr $C$DW$446, DW_AT_decl_line(0x4c)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  129
@@ -7738,7 +7738,7 @@ clllc.asm                                                            PAGE  129
     6506                      .dwattr $C$DW$452, DW_AT_decl_file("C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE
     6507                      .dwattr $C$DW$452, DW_AT_decl_line(0x52)
     6508                      .dwattr $C$DW$452, DW_AT_decl_column(0x0d)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  130
@@ -7798,7 +7798,7 @@ clllc.asm                                                            PAGE  130
     6561              $C$DW$455       .dwtag  DW_TAG_member
     6562                      .dwattr $C$DW$455, DW_AT_type(*$C$DW$T$28)
     6563                      .dwattr $C$DW$455, DW_AT_name("pad")
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  131
@@ -7858,7 +7858,7 @@ clllc.asm                                                            PAGE  131
     6616              
     6617              
     6618              $C$DW$TU$68     .dwtag  DW_TAG_type_unit
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  132
@@ -7918,7 +7918,7 @@ clllc.asm                                                            PAGE  132
     6671              $C$DW$TU$35     .dwtag  DW_TAG_type_unit
     6672                      .dwmtype  $C$DW$T$35
     6673              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  133
@@ -7978,7 +7978,7 @@ clllc.asm                                                            PAGE  133
     6726                      .dwattr $C$DW$463, DW_AT_type(*$C$DW$T$28)
     6727                      .dwattr $C$DW$463, DW_AT_name("pad")
     6728                      .dwattr $C$DW$463, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  134
@@ -8038,7 +8038,7 @@ clllc.asm                                                            PAGE  134
     6781                      .dwendtag $C$DW$TU$72
     6782              
     6783              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  135
@@ -8098,7 +8098,7 @@ clllc.asm                                                            PAGE  135
     6836              $C$DW$T$75      .dwtag  DW_TAG_typedef
     6837                      .dwattr $C$DW$T$75, DW_AT_name("_Complex_long_double")
     6838                      .dwattr $C$DW$T$75, DW_AT_type(*$C$DW$T$43)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  136
@@ -8158,7 +8158,7 @@ clllc.asm                                                            PAGE  136
     6891                      .dwendtag $C$DW$TU$7
     6892              
     6893              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  137
@@ -8218,7 +8218,7 @@ clllc.asm                                                            PAGE  137
     6946              
     6947              
     6948              $C$DW$TU$11     .dwtag  DW_TAG_type_unit
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  138
@@ -8278,7 +8278,7 @@ clllc.asm                                                            PAGE  138
     7001                      .dwendtag $C$DW$TU$109
     7002              
     7003              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  139
@@ -8338,7 +8338,7 @@ clllc.asm                                                            PAGE  139
     7056                      .dwendtag $C$DW$TU$13
     7057              
     7058              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  140
@@ -8398,7 +8398,7 @@ clllc.asm                                                            PAGE  140
     7111                      .dwendtag $C$DW$TU$15
     7112              
     7113              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  141
@@ -8458,7 +8458,7 @@ clllc.asm                                                            PAGE  141
     7166              
     7167                      .dwendtag $C$DW$TU$20
     7168              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  142
@@ -8518,7 +8518,7 @@ clllc.asm                                                            PAGE  142
     7221              $C$DW$T$125     .dwtag  DW_TAG_pointer_type
     7222                      .dwattr $C$DW$T$125, DW_AT_type(*$C$DW$T$17)
     7223                      .dwattr $C$DW$T$125, DW_AT_address_class(0x20)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  143
@@ -8578,7 +8578,7 @@ clllc.asm                                                            PAGE  143
     7276              
     7277              $C$DW$T$129     .dwtag  DW_TAG_const_type
     7278                      .dwattr $C$DW$T$129, DW_AT_type(*$C$DW$478)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  144
@@ -8638,7 +8638,7 @@ clllc.asm                                                            PAGE  144
     7331                      .dwattr $C$DW$482, DW_AT_decl_line(0xc4)
     7332                      .dwattr $C$DW$482, DW_AT_decl_column(0x0e)
     7333              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  145
@@ -8698,7 +8698,7 @@ clllc.asm                                                            PAGE  145
     7386              $C$DW$485       .dwtag  DW_TAG_member
     7387                      .dwattr $C$DW$485, DW_AT_type(*$C$DW$T$19)
     7388                      .dwattr $C$DW$485, DW_AT_name("b1")
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  146
@@ -8758,7 +8758,7 @@ clllc.asm                                                            PAGE  146
     7441                      .dwattr $C$DW$491, DW_AT_type(*$C$DW$T$19)
     7442                      .dwattr $C$DW$491, DW_AT_name("a3")
     7443                      .dwattr $C$DW$491, DW_AT_data_member_location[DW_OP_plus_uconst 0xe]
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  147
@@ -8818,7 +8818,7 @@ clllc.asm                                                            PAGE  147
     7496                      .dwattr $C$DW$497, DW_AT_name("d5")
     7497                      .dwattr $C$DW$497, DW_AT_data_member_location[DW_OP_plus_uconst 0x1a]
     7498                      .dwattr $C$DW$497, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  148
@@ -8878,7 +8878,7 @@ clllc.asm                                                            PAGE  148
     7551                      .dwattr $C$DW$T$86, DW_AT_type(*$C$DW$T$51)
     7552                      .dwattr $C$DW$T$86, DW_AT_decl_file("C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUIT
     7553                      .dwattr $C$DW$T$86, DW_AT_decl_line(0x422)
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  149
@@ -8938,7 +8938,7 @@ clllc.asm                                                            PAGE  149
     7606                      .dwattr $C$DW$506, DW_AT_decl_line(0x401)
     7607                      .dwattr $C$DW$506, DW_AT_decl_column(0x0f)
     7608              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  150
@@ -8998,7 +8998,7 @@ clllc.asm                                                            PAGE  150
     7661              
     7662                      .dwendtag $C$DW$TU$48
     7663              
-TMS320C2000 Assembler PC v22.6.0 Wed Aug 14 19:15:24 2024
+TMS320C2000 Assembler PC v22.6.0 Mon Sep  2 13:26:24 2024
 
 Copyright (c) 1996-2018 Texas Instruments Incorporated
 clllc.asm                                                            PAGE  151

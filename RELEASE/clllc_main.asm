@@ -1,6 +1,6 @@
 ;***************************************************************
 ;* TMS320C2000 G3 C/C++ Codegen                               PC v22.6.0.LTS *
-;* Date/Time created: Fri Aug 16 16:21:33 2024                 *
+;* Date/Time created: Fri Aug 30 17:52:40 2024                 *
 ;***************************************************************
 	.compiler_opts --abi=eabi --cla_support=cla2 --diag_wrap=off --float_support=fpu32 --hll_source=on --mem_model:code=flat --mem_model:data=large --object_format=elf --quiet --silicon_errata_fpu1_workaround=off --silicon_version=28 --symdebug:dwarf --symdebug:dwarf_version=4 --tmu_support=tmu0 --vcu_support=vcu0 
 	.asg	XAR2, FP
@@ -894,8 +894,8 @@ $C$DW$95	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$95, DW_AT_decl_column(0x11)
 
 	.sblock	".bss"
-;	C:\ti\ccs1240\ccs\tools\compiler\ti-cgt-c2000_22.6.0.LTS\bin\opt2000.exe C:\\Users\\ZXC\\AppData\\Local\\Temp\\{4594BB35-4FFA-4352-881D-D05220411251} C:\\Users\\ZXC\\AppData\\Local\\Temp\\{7AC26E0E-1548-4C4F-935A-A68F3C3624CA} 
-;	C:\ti\ccs1240\ccs\tools\compiler\ti-cgt-c2000_22.6.0.LTS\bin\acia2000.exe -@C:\\Users\\ZXC\\AppData\\Local\\Temp\\{FA54A279-621C-42C7-94AC-CABD8F5FEF3C} 
+;	C:\ti\ccs1240\ccs\tools\compiler\ti-cgt-c2000_22.6.0.LTS\bin\opt2000.exe C:\\Users\\ZXC\\AppData\\Local\\Temp\\{F3164B0D-11A3-4274-B9D6-4BAB836B3058} C:\\Users\\ZXC\\AppData\\Local\\Temp\\{60994191-D1E6-44D9-A8CD-D974D51BEA03} 
+;	C:\ti\ccs1240\ccs\tools\compiler\ti-cgt-c2000_22.6.0.LTS\bin\acia2000.exe -@C:\\Users\\ZXC\\AppData\\Local\\Temp\\{FB8CBB43-17DF-41E3-B453-DBDA8E7FA00F} 
 	.sect	".text"
 	.clink
 	.global	||B3||
@@ -907,10 +907,10 @@ $C$DW$96	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$96, DW_AT_linkage_name("B3")
 	.dwattr $C$DW$96, DW_AT_external
 	.dwattr $C$DW$96, DW_AT_decl_file("../clllc_main.c")
-	.dwattr $C$DW$96, DW_AT_decl_line(0x181)
+	.dwattr $C$DW$96, DW_AT_decl_line(0x18b)
 	.dwattr $C$DW$96, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$96, DW_AT_TI_max_frame_size(-2)
-	.dwpsn	file "../clllc_main.c",line 386,column 1,is_stmt,address ||B3||,isa 0
+	.dwpsn	file "../clllc_main.c",line 396,column 1,is_stmt,address ||B3||,isa 0
 
 	.dwfde $C$DW$CIE, ||B3||
 
@@ -926,18 +926,18 @@ $C$DW$96	.dwtag  DW_TAG_subprogram
 ||B3||:
 	.dwcfi	cfa_offset, -2
 	.dwcfi	save_reg_to_mem, 26, 0
-	.dwpsn	file "../clllc_main.c",line 387,column 5,is_stmt,isa 0
+	.dwpsn	file "../clllc_main.c",line 397,column 5,is_stmt,isa 0
 $C$DW$97	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$97, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$97, DW_AT_name("CLLLC_HAL_toggleLED1")
 	.dwattr $C$DW$97, DW_AT_TI_call
 
-        LCR       #||CLLLC_HAL_toggleLED1|| ; [CPU_ALU] |387| 
-        ; call occurs [#||CLLLC_HAL_toggleLED1||] ; [] |387| 
+        LCR       #||CLLLC_HAL_toggleLED1|| ; [CPU_ALU] |397| 
+        ; call occurs [#||CLLLC_HAL_toggleLED1||] ; [] |397| 
         MOVW      DP,#||B_Task_Ptr||    ; [CPU_ARAU] 
-	.dwpsn	file "../clllc_main.c",line 392,column 5,is_stmt,isa 0
-        MOVL      XAR4,#||B1||          ; [CPU_ARAU] |392| 
-        MOVL      @||B_Task_Ptr||,XAR4  ; [CPU_ALU] |392| 
+	.dwpsn	file "../clllc_main.c",line 402,column 5,is_stmt,isa 0
+        MOVL      XAR4,#||B1||          ; [CPU_ARAU] |402| 
+        MOVL      @||B_Task_Ptr||,XAR4  ; [CPU_ALU] |402| 
 $C$DW$98	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$98, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$98, DW_AT_TI_return
@@ -945,7 +945,7 @@ $C$DW$98	.dwtag  DW_TAG_TI_branch
         LRETR     ; [CPU_ALU] 
         ; return occurs ; [] 
 	.dwattr $C$DW$96, DW_AT_TI_end_file("../clllc_main.c")
-	.dwattr $C$DW$96, DW_AT_TI_end_line(0x18a)
+	.dwattr $C$DW$96, DW_AT_TI_end_line(0x194)
 	.dwattr $C$DW$96, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$96
@@ -961,10 +961,10 @@ $C$DW$99	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$99, DW_AT_linkage_name("B2")
 	.dwattr $C$DW$99, DW_AT_external
 	.dwattr $C$DW$99, DW_AT_decl_file("../clllc_main.c")
-	.dwattr $C$DW$99, DW_AT_decl_line(0x177)
+	.dwattr $C$DW$99, DW_AT_decl_line(0x181)
 	.dwattr $C$DW$99, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$99, DW_AT_TI_max_frame_size(-2)
-	.dwpsn	file "../clllc_main.c",line 376,column 1,is_stmt,address ||B2||,isa 0
+	.dwpsn	file "../clllc_main.c",line 386,column 1,is_stmt,address ||B2||,isa 0
 
 	.dwfde $C$DW$CIE, ||B2||
 
@@ -980,10 +980,10 @@ $C$DW$99	.dwtag  DW_TAG_subprogram
 ||B2||:
 	.dwcfi	cfa_offset, -2
 	.dwcfi	save_reg_to_mem, 26, 0
-	.dwpsn	file "../clllc_main.c",line 381,column 5,is_stmt,isa 0
-        MOVL      XAR4,#||B3||          ; [CPU_ARAU] |381| 
+	.dwpsn	file "../clllc_main.c",line 391,column 5,is_stmt,isa 0
+        MOVL      XAR4,#||B3||          ; [CPU_ARAU] |391| 
         MOVW      DP,#||B_Task_Ptr||    ; [CPU_ARAU] 
-        MOVL      @||B_Task_Ptr||,XAR4  ; [CPU_ALU] |381| 
+        MOVL      @||B_Task_Ptr||,XAR4  ; [CPU_ALU] |391| 
 $C$DW$100	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$100, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$100, DW_AT_TI_return
@@ -991,7 +991,7 @@ $C$DW$100	.dwtag  DW_TAG_TI_branch
         LRETR     ; [CPU_ALU] 
         ; return occurs ; [] 
 	.dwattr $C$DW$99, DW_AT_TI_end_file("../clllc_main.c")
-	.dwattr $C$DW$99, DW_AT_TI_end_line(0x17f)
+	.dwattr $C$DW$99, DW_AT_TI_end_line(0x189)
 	.dwattr $C$DW$99, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$99
@@ -1007,10 +1007,10 @@ $C$DW$101	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$101, DW_AT_linkage_name("B1")
 	.dwattr $C$DW$101, DW_AT_external
 	.dwattr $C$DW$101, DW_AT_decl_file("../clllc_main.c")
-	.dwattr $C$DW$101, DW_AT_decl_line(0x16c)
+	.dwattr $C$DW$101, DW_AT_decl_line(0x176)
 	.dwattr $C$DW$101, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$101, DW_AT_TI_max_frame_size(-2)
-	.dwpsn	file "../clllc_main.c",line 365,column 1,is_stmt,address ||B1||,isa 0
+	.dwpsn	file "../clllc_main.c",line 375,column 1,is_stmt,address ||B1||,isa 0
 
 	.dwfde $C$DW$CIE, ||B1||
 
@@ -1026,18 +1026,18 @@ $C$DW$101	.dwtag  DW_TAG_subprogram
 ||B1||:
 	.dwcfi	cfa_offset, -2
 	.dwcfi	save_reg_to_mem, 26, 0
-	.dwpsn	file "../clllc_main.c",line 367,column 5,is_stmt,isa 0
+	.dwpsn	file "../clllc_main.c",line 377,column 5,is_stmt,isa 0
 $C$DW$102	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$102, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$102, DW_AT_name("CLLLC_updateBoardStatus")
 	.dwattr $C$DW$102, DW_AT_TI_call
 
-        LCR       #||CLLLC_updateBoardStatus|| ; [CPU_ALU] |367| 
-        ; call occurs [#||CLLLC_updateBoardStatus||] ; [] |367| 
+        LCR       #||CLLLC_updateBoardStatus|| ; [CPU_ALU] |377| 
+        ; call occurs [#||CLLLC_updateBoardStatus||] ; [] |377| 
         MOVW      DP,#||B_Task_Ptr||    ; [CPU_ARAU] 
-	.dwpsn	file "../clllc_main.c",line 372,column 5,is_stmt,isa 0
-        MOVL      XAR4,#||B2||          ; [CPU_ARAU] |372| 
-        MOVL      @||B_Task_Ptr||,XAR4  ; [CPU_ALU] |372| 
+	.dwpsn	file "../clllc_main.c",line 382,column 5,is_stmt,isa 0
+        MOVL      XAR4,#||B2||          ; [CPU_ARAU] |382| 
+        MOVL      @||B_Task_Ptr||,XAR4  ; [CPU_ALU] |382| 
 $C$DW$103	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$103, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$103, DW_AT_TI_return
@@ -1045,7 +1045,7 @@ $C$DW$103	.dwtag  DW_TAG_TI_branch
         LRETR     ; [CPU_ALU] 
         ; return occurs ; [] 
 	.dwattr $C$DW$101, DW_AT_TI_end_file("../clllc_main.c")
-	.dwattr $C$DW$101, DW_AT_TI_end_line(0x175)
+	.dwattr $C$DW$101, DW_AT_TI_end_line(0x17f)
 	.dwattr $C$DW$101, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$101
@@ -1061,10 +1061,10 @@ $C$DW$104	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$104, DW_AT_linkage_name("A1")
 	.dwattr $C$DW$104, DW_AT_external
 	.dwattr $C$DW$104, DW_AT_decl_file("../clllc_main.c")
-	.dwattr $C$DW$104, DW_AT_decl_line(0x157)
+	.dwattr $C$DW$104, DW_AT_decl_line(0x161)
 	.dwattr $C$DW$104, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$104, DW_AT_TI_max_frame_size(-2)
-	.dwpsn	file "../clllc_main.c",line 344,column 1,is_stmt,address ||A1||,isa 0
+	.dwpsn	file "../clllc_main.c",line 354,column 1,is_stmt,address ||A1||,isa 0
 
 	.dwfde $C$DW$CIE, ||A1||
 
@@ -1080,19 +1080,19 @@ $C$DW$104	.dwtag  DW_TAG_subprogram
 ||A1||:
 	.dwcfi	cfa_offset, -2
 	.dwcfi	save_reg_to_mem, 26, 0
-	.dwpsn	file "../clllc_main.c",line 349,column 5,is_stmt,isa 0
-        MOVB      AL,#1                 ; [CPU_ALU] |349| 
+	.dwpsn	file "../clllc_main.c",line 359,column 5,is_stmt,isa 0
+        MOVB      AL,#1                 ; [CPU_ALU] |359| 
 $C$DW$105	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$105, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$105, DW_AT_name("CLLLC_changeSynchronousRectifierPwmBehavior")
 	.dwattr $C$DW$105, DW_AT_TI_call
 
-        LCR       #||CLLLC_changeSynchronousRectifierPwmBehavior|| ; [CPU_ALU] |349| 
-        ; call occurs [#||CLLLC_changeSynchronousRectifierPwmBehavior||] ; [] |349| 
+        LCR       #||CLLLC_changeSynchronousRectifierPwmBehavior|| ; [CPU_ALU] |359| 
+        ; call occurs [#||CLLLC_changeSynchronousRectifierPwmBehavior||] ; [] |359| 
         MOVW      DP,#||A_Task_Ptr||    ; [CPU_ARAU] 
-	.dwpsn	file "../clllc_main.c",line 354,column 5,is_stmt,isa 0
-        MOVL      XAR4,#||A1||          ; [CPU_ARAU] |354| 
-        MOVL      @||A_Task_Ptr||,XAR4  ; [CPU_ALU] |354| 
+	.dwpsn	file "../clllc_main.c",line 364,column 5,is_stmt,isa 0
+        MOVL      XAR4,#||A1||          ; [CPU_ARAU] |364| 
+        MOVL      @||A_Task_Ptr||,XAR4  ; [CPU_ALU] |364| 
 $C$DW$106	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$106, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$106, DW_AT_TI_return
@@ -1100,7 +1100,7 @@ $C$DW$106	.dwtag  DW_TAG_TI_branch
         LRETR     ; [CPU_ALU] 
         ; return occurs ; [] 
 	.dwattr $C$DW$104, DW_AT_TI_end_file("../clllc_main.c")
-	.dwattr $C$DW$104, DW_AT_TI_end_line(0x164)
+	.dwattr $C$DW$104, DW_AT_TI_end_line(0x16e)
 	.dwattr $C$DW$104, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$104
@@ -1116,10 +1116,10 @@ $C$DW$107	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$107, DW_AT_linkage_name("A0")
 	.dwattr $C$DW$107, DW_AT_external
 	.dwattr $C$DW$107, DW_AT_decl_file("../clllc_main.c")
-	.dwattr $C$DW$107, DW_AT_decl_line(0x127)
+	.dwattr $C$DW$107, DW_AT_decl_line(0x131)
 	.dwattr $C$DW$107, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$107, DW_AT_TI_max_frame_size(-2)
-	.dwpsn	file "../clllc_main.c",line 296,column 1,is_stmt,address ||A0||,isa 0
+	.dwpsn	file "../clllc_main.c",line 306,column 1,is_stmt,address ||A0||,isa 0
 
 	.dwfde $C$DW$CIE, ||A0||
 
@@ -1139,34 +1139,34 @@ $C$DW$107	.dwtag  DW_TAG_subprogram
 	.dwpsn	file "C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE_F28004x/device/driverlib/cputimer.h",line 397,column 5,is_stmt,isa 0
         MOV       AL,*(0:0x0c04)        ; [CPU_ALU] |397| 
         LSR       AL,15                 ; [CPU_ALU] |397| 
-	.dwpsn	file "../clllc_main.c",line 300,column 5,is_stmt,isa 0
-        CMPB      AL,#1                 ; [CPU_ALU] |300| 
-        B         ||$C$L1||,NEQ         ; [CPU_ALU] |300| 
-        ; branchcc occurs ; [] |300| 
+	.dwpsn	file "../clllc_main.c",line 310,column 5,is_stmt,isa 0
+        CMPB      AL,#1                 ; [CPU_ALU] |310| 
+        B         ||$C$L1||,NEQ         ; [CPU_ALU] |310| 
+        ; branchcc occurs ; [] |310| 
         MOVW      DP,#||A_Task_Ptr||    ; [CPU_ARAU] 
 	.dwpsn	file "C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE_F28004x/device/driverlib/cputimer.h",line 165,column 5,is_stmt,isa 0
         MOV       AL,*(0:0x0c04)        ; [CPU_ALU] |165| 
-	.dwpsn	file "../clllc_main.c",line 307,column 9,is_stmt,isa 0
-        MOVL      XAR7,@||A_Task_Ptr||  ; [CPU_ALU] |307| 
+	.dwpsn	file "../clllc_main.c",line 317,column 9,is_stmt,isa 0
+        MOVL      XAR7,@||A_Task_Ptr||  ; [CPU_ALU] |317| 
 	.dwpsn	file "C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE_F28004x/device/driverlib/cputimer.h",line 165,column 5,is_stmt,isa 0
         OR        AL,#0x8000            ; [CPU_ALU] |165| 
         MOV       *(0:0x0c04),AL        ; [CPU_ALU] |165| 
-	.dwpsn	file "../clllc_main.c",line 307,column 9,is_stmt,isa 0
+	.dwpsn	file "../clllc_main.c",line 317,column 9,is_stmt,isa 0
 $C$DW$108	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$108, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$108, DW_AT_TI_call
 	.dwattr $C$DW$108, DW_AT_TI_indirect
 
-        LCR       *XAR7                 ; [CPU_ALU] |307| 
-        ; call occurs [XAR7] ; [] |307| 
+        LCR       *XAR7                 ; [CPU_ALU] |317| 
+        ; call occurs [XAR7] ; [] |317| 
         MOVW      DP,#||vTimer0||       ; [CPU_ARAU] 
-	.dwpsn	file "../clllc_main.c",line 309,column 9,is_stmt,isa 0
-        INC       @||vTimer0||          ; [CPU_ALU] |309| 
+	.dwpsn	file "../clllc_main.c",line 319,column 9,is_stmt,isa 0
+        INC       @||vTimer0||          ; [CPU_ALU] |319| 
 ||$C$L1||:    
-	.dwpsn	file "../clllc_main.c",line 311,column 5,is_stmt,isa 0
-        MOVL      XAR4,#||B0||          ; [CPU_ARAU] |311| 
+	.dwpsn	file "../clllc_main.c",line 321,column 5,is_stmt,isa 0
+        MOVL      XAR4,#||B0||          ; [CPU_ARAU] |321| 
         MOVW      DP,#||Alpha_State_Ptr|| ; [CPU_ARAU] 
-        MOVL      @||Alpha_State_Ptr||,XAR4 ; [CPU_ALU] |311| 
+        MOVL      @||Alpha_State_Ptr||,XAR4 ; [CPU_ALU] |321| 
 $C$DW$109	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$109, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$109, DW_AT_TI_return
@@ -1174,7 +1174,7 @@ $C$DW$109	.dwtag  DW_TAG_TI_branch
         LRETR     ; [CPU_ALU] 
         ; return occurs ; [] 
 	.dwattr $C$DW$107, DW_AT_TI_end_file("../clllc_main.c")
-	.dwattr $C$DW$107, DW_AT_TI_end_line(0x138)
+	.dwattr $C$DW$107, DW_AT_TI_end_line(0x142)
 	.dwattr $C$DW$107, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$107
@@ -1190,10 +1190,10 @@ $C$DW$110	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$110, DW_AT_linkage_name("B0")
 	.dwattr $C$DW$110, DW_AT_external
 	.dwattr $C$DW$110, DW_AT_decl_file("../clllc_main.c")
-	.dwattr $C$DW$110, DW_AT_decl_line(0x13a)
+	.dwattr $C$DW$110, DW_AT_decl_line(0x144)
 	.dwattr $C$DW$110, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$110, DW_AT_TI_max_frame_size(-2)
-	.dwpsn	file "../clllc_main.c",line 315,column 1,is_stmt,address ||B0||,isa 0
+	.dwpsn	file "../clllc_main.c",line 325,column 1,is_stmt,address ||B0||,isa 0
 
 	.dwfde $C$DW$CIE, ||B0||
 
@@ -1213,34 +1213,34 @@ $C$DW$110	.dwtag  DW_TAG_subprogram
 	.dwpsn	file "C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE_F28004x/device/driverlib/cputimer.h",line 397,column 5,is_stmt,isa 0
         MOV       AL,*(0:0x0c0c)        ; [CPU_ALU] |397| 
         LSR       AL,15                 ; [CPU_ALU] |397| 
-	.dwpsn	file "../clllc_main.c",line 319,column 5,is_stmt,isa 0
-        CMPB      AL,#1                 ; [CPU_ALU] |319| 
-        B         ||$C$L2||,NEQ         ; [CPU_ALU] |319| 
-        ; branchcc occurs ; [] |319| 
+	.dwpsn	file "../clllc_main.c",line 329,column 5,is_stmt,isa 0
+        CMPB      AL,#1                 ; [CPU_ALU] |329| 
+        B         ||$C$L2||,NEQ         ; [CPU_ALU] |329| 
+        ; branchcc occurs ; [] |329| 
         MOVW      DP,#||B_Task_Ptr||    ; [CPU_ARAU] 
 	.dwpsn	file "C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE_F28004x/device/driverlib/cputimer.h",line 165,column 5,is_stmt,isa 0
         MOV       AL,*(0:0x0c0c)        ; [CPU_ALU] |165| 
-	.dwpsn	file "../clllc_main.c",line 326,column 9,is_stmt,isa 0
-        MOVL      XAR7,@||B_Task_Ptr||  ; [CPU_ALU] |326| 
+	.dwpsn	file "../clllc_main.c",line 336,column 9,is_stmt,isa 0
+        MOVL      XAR7,@||B_Task_Ptr||  ; [CPU_ALU] |336| 
 	.dwpsn	file "C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE_F28004x/device/driverlib/cputimer.h",line 165,column 5,is_stmt,isa 0
         OR        AL,#0x8000            ; [CPU_ALU] |165| 
         MOV       *(0:0x0c0c),AL        ; [CPU_ALU] |165| 
-	.dwpsn	file "../clllc_main.c",line 326,column 9,is_stmt,isa 0
+	.dwpsn	file "../clllc_main.c",line 336,column 9,is_stmt,isa 0
 $C$DW$111	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$111, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$111, DW_AT_TI_call
 	.dwattr $C$DW$111, DW_AT_TI_indirect
 
-        LCR       *XAR7                 ; [CPU_ALU] |326| 
-        ; call occurs [XAR7] ; [] |326| 
+        LCR       *XAR7                 ; [CPU_ALU] |336| 
+        ; call occurs [XAR7] ; [] |336| 
         MOVW      DP,#||vTimer1||       ; [CPU_ARAU] 
-	.dwpsn	file "../clllc_main.c",line 328,column 9,is_stmt,isa 0
-        INC       @||vTimer1||          ; [CPU_ALU] |328| 
+	.dwpsn	file "../clllc_main.c",line 338,column 9,is_stmt,isa 0
+        INC       @||vTimer1||          ; [CPU_ALU] |338| 
 ||$C$L2||:    
-	.dwpsn	file "../clllc_main.c",line 334,column 5,is_stmt,isa 0
-        MOVL      XAR4,#||A0||          ; [CPU_ARAU] |334| 
+	.dwpsn	file "../clllc_main.c",line 344,column 5,is_stmt,isa 0
+        MOVL      XAR4,#||A0||          ; [CPU_ARAU] |344| 
         MOVW      DP,#||Alpha_State_Ptr|| ; [CPU_ARAU] 
-        MOVL      @||Alpha_State_Ptr||,XAR4 ; [CPU_ALU] |334| 
+        MOVL      @||Alpha_State_Ptr||,XAR4 ; [CPU_ALU] |344| 
 $C$DW$112	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$112, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$112, DW_AT_TI_return
@@ -1248,7 +1248,7 @@ $C$DW$112	.dwtag  DW_TAG_TI_branch
         LRETR     ; [CPU_ALU] 
         ; return occurs ; [] 
 	.dwattr $C$DW$110, DW_AT_TI_end_file("../clllc_main.c")
-	.dwattr $C$DW$110, DW_AT_TI_end_line(0x14f)
+	.dwattr $C$DW$110, DW_AT_TI_end_line(0x159)
 	.dwattr $C$DW$110, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$110
@@ -1345,117 +1345,117 @@ $C$DW$119	.dwtag  DW_TAG_TI_branch
 
         LCR       #||CLLLC_HAL_setupPWM|| ; [CPU_ALU] |105| 
         ; call occurs [#||CLLLC_HAL_setupPWM||] ; [] |105| 
-	.dwpsn	file "../clllc_main.c",line 111,column 5,is_stmt,isa 0
-        MOVIZ     R0H,#18371            ; [CPU_FPU] |111| 
-        MOVIZ     R1H,#19646            ; [CPU_FPU] |111| 
-        MOV       ACC,#17408            ; [CPU_ALU] |111| 
-        MOVXI     R0H,#20480            ; [CPU_FPU] |111| 
-        MOVXI     R1H,#48160            ; [CPU_FPU] |111| 
+	.dwpsn	file "../clllc_main.c",line 112,column 5,is_stmt,isa 0
+        MOVIZ     R0H,#18371            ; [CPU_FPU] |112| 
+        MOVIZ     R1H,#19646            ; [CPU_FPU] |112| 
+        MOV       ACC,#17408            ; [CPU_ALU] |112| 
+        MOVXI     R0H,#20480            ; [CPU_FPU] |112| 
+        MOVXI     R1H,#48160            ; [CPU_FPU] |112| 
 $C$DW$120	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$120, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$120, DW_AT_name("CLLLC_HAL_setupPWMinUpDownCountMode")
 	.dwattr $C$DW$120, DW_AT_TI_call
 
-        LCR       #||CLLLC_HAL_setupPWMinUpDownCountMode|| ; [CPU_ALU] |111| 
-        ; call occurs [#||CLLLC_HAL_setupPWMinUpDownCountMode||] ; [] |111| 
-	.dwpsn	file "../clllc_main.c",line 114,column 5,is_stmt,isa 0
-        MOVIZ     R0H,#18371            ; [CPU_FPU] |114| 
-        MOVIZ     R1H,#19646            ; [CPU_FPU] |114| 
-        MOV       ACC,#20992            ; [CPU_ALU] |114| 
-        MOVXI     R0H,#20480            ; [CPU_FPU] |114| 
-        MOVXI     R1H,#48160            ; [CPU_FPU] |114| 
+        LCR       #||CLLLC_HAL_setupPWMinUpDownCountMode|| ; [CPU_ALU] |112| 
+        ; call occurs [#||CLLLC_HAL_setupPWMinUpDownCountMode||] ; [] |112| 
+	.dwpsn	file "../clllc_main.c",line 117,column 5,is_stmt,isa 0
+        MOVIZ     R0H,#18371            ; [CPU_FPU] |117| 
+        MOVIZ     R1H,#19646            ; [CPU_FPU] |117| 
+        MOV       ACC,#20992            ; [CPU_ALU] |117| 
+        MOVXI     R0H,#20480            ; [CPU_FPU] |117| 
+        MOVXI     R1H,#48160            ; [CPU_FPU] |117| 
 $C$DW$121	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$121, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$121, DW_AT_name("CLLLC_HAL_setupECAPinPWMMode")
 	.dwattr $C$DW$121, DW_AT_TI_call
 
-        LCR       #||CLLLC_HAL_setupECAPinPWMMode|| ; [CPU_ALU] |114| 
-        ; call occurs [#||CLLLC_HAL_setupECAPinPWMMode||] ; [] |114| 
-	.dwpsn	file "../clllc_main.c",line 121,column 5,is_stmt,isa 0
+        LCR       #||CLLLC_HAL_setupECAPinPWMMode|| ; [CPU_ALU] |117| 
+        ; call occurs [#||CLLLC_HAL_setupECAPinPWMMode||] ; [] |117| 
+	.dwpsn	file "../clllc_main.c",line 125,column 5,is_stmt,isa 0
 $C$DW$122	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$122, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$122, DW_AT_name("CLLLC_HAL_setupADC")
 	.dwattr $C$DW$122, DW_AT_TI_call
 
-        LCR       #||CLLLC_HAL_setupADC|| ; [CPU_ALU] |121| 
-        ; call occurs [#||CLLLC_HAL_setupADC||] ; [] |121| 
-	.dwpsn	file "../clllc_main.c",line 126,column 5,is_stmt,isa 0
+        LCR       #||CLLLC_HAL_setupADC|| ; [CPU_ALU] |125| 
+        ; call occurs [#||CLLLC_HAL_setupADC||] ; [] |125| 
+	.dwpsn	file "../clllc_main.c",line 130,column 5,is_stmt,isa 0
 $C$DW$123	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$123, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$123, DW_AT_name("CLLLC_HAL_setupIprimSensedSignalChain")
 	.dwattr $C$DW$123, DW_AT_TI_call
 
-        LCR       #||CLLLC_HAL_setupIprimSensedSignalChain|| ; [CPU_ALU] |126| 
-        ; call occurs [#||CLLLC_HAL_setupIprimSensedSignalChain||] ; [] |126| 
-	.dwpsn	file "../clllc_main.c",line 131,column 5,is_stmt,isa 0
+        LCR       #||CLLLC_HAL_setupIprimSensedSignalChain|| ; [CPU_ALU] |130| 
+        ; call occurs [#||CLLLC_HAL_setupIprimSensedSignalChain||] ; [] |130| 
+	.dwpsn	file "../clllc_main.c",line 135,column 5,is_stmt,isa 0
 $C$DW$124	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$124, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$124, DW_AT_name("CLLLC_HAL_setupProfilingGPIO")
 	.dwattr $C$DW$124, DW_AT_TI_call
 
-        LCR       #||CLLLC_HAL_setupProfilingGPIO|| ; [CPU_ALU] |131| 
-        ; call occurs [#||CLLLC_HAL_setupProfilingGPIO||] ; [] |131| 
-	.dwpsn	file "../clllc_main.c",line 136,column 5,is_stmt,isa 0
+        LCR       #||CLLLC_HAL_setupProfilingGPIO|| ; [CPU_ALU] |135| 
+        ; call occurs [#||CLLLC_HAL_setupProfilingGPIO||] ; [] |135| 
+	.dwpsn	file "../clllc_main.c",line 140,column 5,is_stmt,isa 0
 $C$DW$125	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$125, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$125, DW_AT_name("CLLLC_HAL_setupLED1")
 	.dwattr $C$DW$125, DW_AT_TI_call
 
-        LCR       #||CLLLC_HAL_setupLED1|| ; [CPU_ALU] |136| 
-        ; call occurs [#||CLLLC_HAL_setupLED1||] ; [] |136| 
+        LCR       #||CLLLC_HAL_setupLED1|| ; [CPU_ALU] |140| 
+        ; call occurs [#||CLLLC_HAL_setupLED1||] ; [] |140| 
         MOVW      DP,#||CLLLC_powerFlowStateActive|| ; [CPU_ARAU] 
-	.dwpsn	file "../clllc_main.c",line 141,column 5,is_stmt,isa 0
-        MOV       AL,@||CLLLC_powerFlowStateActive|| ; [CPU_ALU] |141| 
+	.dwpsn	file "../clllc_main.c",line 145,column 5,is_stmt,isa 0
+        MOV       AL,@||CLLLC_powerFlowStateActive|| ; [CPU_ALU] |145| 
 $C$DW$126	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$126, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$126, DW_AT_name("CLLLC_HAL_setupSynchronousRectificationAction")
 	.dwattr $C$DW$126, DW_AT_TI_call
 
-        LCR       #||CLLLC_HAL_setupSynchronousRectificationAction|| ; [CPU_ALU] |141| 
-        ; call occurs [#||CLLLC_HAL_setupSynchronousRectificationAction||] ; [] |141| 
+        LCR       #||CLLLC_HAL_setupSynchronousRectificationAction|| ; [CPU_ALU] |145| 
+        ; call occurs [#||CLLLC_HAL_setupSynchronousRectificationAction||] ; [] |145| 
         MOVW      DP,#||CLLLC_powerFlowStateActive|| ; [CPU_ARAU] 
-	.dwpsn	file "../clllc_main.c",line 147,column 5,is_stmt,isa 0
-        MOV       AL,@||CLLLC_powerFlowStateActive|| ; [CPU_ALU] |147| 
+	.dwpsn	file "../clllc_main.c",line 152,column 5,is_stmt,isa 0
+        MOV       AL,@||CLLLC_powerFlowStateActive|| ; [CPU_ALU] |152| 
 $C$DW$127	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$127, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$127, DW_AT_name("CLLLC_HAL_setupSynchronousRectificationActionDebug")
 	.dwattr $C$DW$127, DW_AT_TI_call
 
-        LCR       #||CLLLC_HAL_setupSynchronousRectificationActionDebug|| ; [CPU_ALU] |147| 
-        ; call occurs [#||CLLLC_HAL_setupSynchronousRectificationActionDebug||] ; [] |147| 
-	.dwpsn	file "../clllc_main.c",line 154,column 5,is_stmt,isa 0
+        LCR       #||CLLLC_HAL_setupSynchronousRectificationActionDebug|| ; [CPU_ALU] |152| 
+        ; call occurs [#||CLLLC_HAL_setupSynchronousRectificationActionDebug||] ; [] |152| 
+	.dwpsn	file "../clllc_main.c",line 160,column 5,is_stmt,isa 0
 $C$DW$128	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$128, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$128, DW_AT_name("CLLLC_HAL_setupBoardProtection")
 	.dwattr $C$DW$128, DW_AT_TI_call
 
-        LCR       #||CLLLC_HAL_setupBoardProtection|| ; [CPU_ALU] |154| 
-        ; call occurs [#||CLLLC_HAL_setupBoardProtection||] ; [] |154| 
-	.dwpsn	file "../clllc_main.c",line 161,column 5,is_stmt,isa 0
+        LCR       #||CLLLC_HAL_setupBoardProtection|| ; [CPU_ALU] |160| 
+        ; call occurs [#||CLLLC_HAL_setupBoardProtection||] ; [] |160| 
+	.dwpsn	file "../clllc_main.c",line 168,column 5,is_stmt,isa 0
 $C$DW$129	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$129, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$129, DW_AT_name("CLLLC_setBuildLevelIndicatorVariable")
 	.dwattr $C$DW$129, DW_AT_TI_call
 
-        LCR       #||CLLLC_setBuildLevelIndicatorVariable|| ; [CPU_ALU] |161| 
-        ; call occurs [#||CLLLC_setBuildLevelIndicatorVariable||] ; [] |161| 
-	.dwpsn	file "../clllc_main.c",line 166,column 5,is_stmt,isa 0
+        LCR       #||CLLLC_setBuildLevelIndicatorVariable|| ; [CPU_ALU] |168| 
+        ; call occurs [#||CLLLC_setBuildLevelIndicatorVariable||] ; [] |168| 
+	.dwpsn	file "../clllc_main.c",line 174,column 5,is_stmt,isa 0
 $C$DW$130	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$130, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$130, DW_AT_name("CLLLC_HAL_setupTrigForADC")
 	.dwattr $C$DW$130, DW_AT_TI_call
 
-        LCR       #||CLLLC_HAL_setupTrigForADC|| ; [CPU_ALU] |166| 
-        ; call occurs [#||CLLLC_HAL_setupTrigForADC||] ; [] |166| 
-	.dwpsn	file "../clllc_main.c",line 171,column 5,is_stmt,isa 0
-        MOVB      AL,#3                 ; [CPU_ALU] |171| 
+        LCR       #||CLLLC_HAL_setupTrigForADC|| ; [CPU_ALU] |174| 
+        ; call occurs [#||CLLLC_HAL_setupTrigForADC||] ; [] |174| 
+	.dwpsn	file "../clllc_main.c",line 179,column 5,is_stmt,isa 0
+        MOVB      AL,#3                 ; [CPU_ALU] |179| 
 $C$DW$131	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$131, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$131, DW_AT_name("CLLLC_HAL_setupPWMpins")
 	.dwattr $C$DW$131, DW_AT_TI_call
 
-        LCR       #||CLLLC_HAL_setupPWMpins|| ; [CPU_ALU] |171| 
-        ; call occurs [#||CLLLC_HAL_setupPWMpins||] ; [] |171| 
+        LCR       #||CLLLC_HAL_setupPWMpins|| ; [CPU_ALU] |179| 
+        ; call occurs [#||CLLLC_HAL_setupPWMpins||] ; [] |179| 
 	.dwpsn	file "C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE_F28004x/device/driverlib/epwm.h",line 4766,column 11,is_stmt,isa 0
         MOV       AL,*(0:0x40a4)        ; [CPU_ALU] |4766| 
         MOVW      DP,#||CLLLC_powerFlowStateActive|| ; [CPU_ARAU] 
@@ -1536,31 +1536,31 @@ $C$DW$131	.dwtag  DW_TAG_TI_branch
         EDIS      ; [CPU_ALU] |258| 
 	.dwpsn	file "C:\Users\ZXC\Documents\mcu project\ti-project\clllc_nonpowerSUITE_F28004x\device\driverlib\interrupt.h",line 377,column 5,is_stmt,isa 0
         MOVB      AL,#4                 ; [CPU_ALU] |377| 
-	.dwpsn	file "..\clllc_hal.h",line 448,column 9,is_stmt,isa 0
-        MOVL      XAR4,#3146497         ; [CPU_ARAU] |448| 
+	.dwpsn	file "..\clllc_hal.h",line 450,column 9,is_stmt,isa 0
+        MOVL      XAR4,#3146497         ; [CPU_ARAU] |450| 
 	.dwpsn	file "C:\Users\ZXC\Documents\mcu project\ti-project\clllc_nonpowerSUITE_F28004x\device\driverlib\interrupt.h",line 377,column 5,is_stmt,isa 0
         MOV       *(0:0x0ce1),AL        ; [CPU_ALU] |377| 
-	.dwpsn	file "..\clllc_hal.h",line 448,column 9,is_stmt,isa 0
-        MOVL      ACC,XAR4              ; [CPU_ALU] |448| 
+	.dwpsn	file "..\clllc_hal.h",line 450,column 9,is_stmt,isa 0
+        MOVL      ACC,XAR4              ; [CPU_ALU] |450| 
 $C$DW$132	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$132, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$132, DW_AT_name("Interrupt_enable")
 	.dwattr $C$DW$132, DW_AT_TI_call
 
-        LCR       #||Interrupt_enable|| ; [CPU_ALU] |448| 
-        ; call occurs [#||Interrupt_enable||] ; [] |448| 
-        MOV       AL,AR1                ; [CPU_ALU] |448| 
-	.dwpsn	file "..\clllc_hal.h",line 452,column 9,is_stmt,isa 0
-        CMPB      AL,#2                 ; [CPU_ALU] |452| 
-        B         ||$C$L3||,EQ          ; [CPU_ALU] |452| 
-        ; branchcc occurs ; [] |452| 
+        LCR       #||Interrupt_enable|| ; [CPU_ALU] |450| 
+        ; call occurs [#||Interrupt_enable||] ; [] |450| 
+        MOV       AL,AR1                ; [CPU_ALU] |450| 
+	.dwpsn	file "..\clllc_hal.h",line 454,column 9,is_stmt,isa 0
+        CMPB      AL,#2                 ; [CPU_ALU] |454| 
+        B         ||$C$L3||,EQ          ; [CPU_ALU] |454| 
+        ; branchcc occurs ; [] |454| 
 	.dwpsn	file "C:\Users\ZXC\Documents\mcu project\ti-project\clllc_nonpowerSUITE_F28004x\device\driverlib\interrupt.h",line 256,column 5,is_stmt,isa 0
         EALLOW    ; [CPU_ALU] |256| 
 	.dwpsn	file "C:\Users\ZXC\Documents\mcu project\ti-project\clllc_nonpowerSUITE_F28004x\device\driverlib\interrupt.h",line 257,column 5,is_stmt,isa 0
         MOVL      XAR4,#||ISR2_primToSecPowerFlow|| ; [CPU_ARAU] |257| 
-	.dwpsn	file "..\clllc_hal.h",line 458,column 13,is_stmt,isa 0
-        B         ||$C$L4||,UNC         ; [CPU_ALU] |458| 
-        ; branch occurs ; [] |458| 
+	.dwpsn	file "..\clllc_hal.h",line 460,column 13,is_stmt,isa 0
+        B         ||$C$L4||,UNC         ; [CPU_ALU] |460| 
+        ; branch occurs ; [] |460| 
 ||$C$L3||:    
 	.dwpsn	file "C:\Users\ZXC\Documents\mcu project\ti-project\clllc_nonpowerSUITE_F28004x\device\driverlib\interrupt.h",line 256,column 5,is_stmt,isa 0
         EALLOW    ; [CPU_ALU] |256| 
@@ -1573,16 +1573,16 @@ $C$DW$132	.dwtag  DW_TAG_TI_branch
 	.dwpsn	file "C:\Users\ZXC\Documents\mcu project\ti-project\clllc_nonpowerSUITE_F28004x\device\driverlib\interrupt.h",line 377,column 5,is_stmt,isa 0
         MOVB      AL,#8                 ; [CPU_ALU] |377| 
         MOV       *(0:0x0ce1),AL        ; [CPU_ALU] |377| 
-	.dwpsn	file "..\clllc_hal.h",line 461,column 9,is_stmt,isa 0
-        MOVL      XAR4,#3671041         ; [CPU_ARAU] |461| 
-        MOVL      ACC,XAR4              ; [CPU_ALU] |461| 
+	.dwpsn	file "..\clllc_hal.h",line 463,column 9,is_stmt,isa 0
+        MOVL      XAR4,#3671041         ; [CPU_ARAU] |463| 
+        MOVL      ACC,XAR4              ; [CPU_ALU] |463| 
 $C$DW$133	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$133, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$133, DW_AT_name("Interrupt_enable")
 	.dwattr $C$DW$133, DW_AT_TI_call
 
-        LCR       #||Interrupt_enable|| ; [CPU_ALU] |461| 
-        ; call occurs [#||Interrupt_enable||] ; [] |461| 
+        LCR       #||Interrupt_enable|| ; [CPU_ALU] |463| 
+        ; call occurs [#||Interrupt_enable||] ; [] |463| 
 	.dwpsn	file "C:\Users\ZXC\Documents\mcu project\ti-project\clllc_nonpowerSUITE_F28004x\device\driverlib\interrupt.h",line 256,column 5,is_stmt,isa 0
         EALLOW    ; [CPU_ALU] |256| 
 	.dwpsn	file "C:\Users\ZXC\Documents\mcu project\ti-project\clllc_nonpowerSUITE_F28004x\device\driverlib\interrupt.h",line 257,column 5,is_stmt,isa 0
@@ -1590,47 +1590,47 @@ $C$DW$133	.dwtag  DW_TAG_TI_branch
         MOV32     *(0:0x0e92),XAR4      ; [CPU_FPU] |257| 
 	.dwpsn	file "C:\Users\ZXC\Documents\mcu project\ti-project\clllc_nonpowerSUITE_F28004x\device\driverlib\interrupt.h",line 258,column 5,is_stmt,isa 0
         EDIS      ; [CPU_ALU] |258| 
-	.dwpsn	file "..\clllc_hal.h",line 465,column 5,is_stmt,isa 0
-        MOV       AL,#2570              ; [CPU_ALU] |465| 
-        MOV       AH,#201               ; [CPU_ALU] |465| 
+	.dwpsn	file "..\clllc_hal.h",line 467,column 5,is_stmt,isa 0
+        MOV       AL,#2570              ; [CPU_ALU] |467| 
+        MOV       AH,#201               ; [CPU_ALU] |467| 
 $C$DW$134	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$134, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$134, DW_AT_name("Interrupt_enable")
 	.dwattr $C$DW$134, DW_AT_TI_call
 
-        LCR       #||Interrupt_enable|| ; [CPU_ALU] |465| 
-        ; call occurs [#||Interrupt_enable||] ; [] |465| 
-	.dwpsn	file "..\clllc_hal.h",line 467,column 5,is_stmt,isa 0
-        EALLOW    ; [CPU_ALU] |467| 
+        LCR       #||Interrupt_enable|| ; [CPU_ALU] |467| 
+        ; call occurs [#||Interrupt_enable||] ; [] |467| 
+	.dwpsn	file "..\clllc_hal.h",line 469,column 5,is_stmt,isa 0
+        EALLOW    ; [CPU_ALU] |469| 
  clrc INTM
  clrc DBGM
-	.dwpsn	file "..\clllc_hal.h",line 476,column 5,is_stmt,isa 0
-        EDIS      ; [CPU_ALU] |476| 
+	.dwpsn	file "..\clllc_hal.h",line 478,column 5,is_stmt,isa 0
+        EDIS      ; [CPU_ALU] |478| 
         SPM       #0                    ; [CPU_ALU] 
-	.dwpsn	file "../clllc_main.c",line 189,column 5,is_stmt,isa 0
+	.dwpsn	file "../clllc_main.c",line 197,column 5,is_stmt,isa 0
 $C$DW$135	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$135, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$135, DW_AT_name("CLLLC_HAL_enablePWMClkCounting")
 	.dwattr $C$DW$135, DW_AT_TI_call
 
-        LCR       #||CLLLC_HAL_enablePWMClkCounting|| ; [CPU_ALU] |189| 
-        ; call occurs [#||CLLLC_HAL_enablePWMClkCounting||] ; [] |189| 
+        LCR       #||CLLLC_HAL_enablePWMClkCounting|| ; [CPU_ALU] |197| 
+        ; call occurs [#||CLLLC_HAL_enablePWMClkCounting||] ; [] |197| 
 ||$C$L5||:    
         MOVW      DP,#||Alpha_State_Ptr|| ; [CPU_ARAU] 
-	.dwpsn	file "../clllc_main.c",line 202,column 9,is_stmt,isa 0
-        MOVL      XAR7,@||Alpha_State_Ptr|| ; [CPU_ALU] |202| 
+	.dwpsn	file "../clllc_main.c",line 210,column 9,is_stmt,isa 0
+        MOVL      XAR7,@||Alpha_State_Ptr|| ; [CPU_ALU] |210| 
 $C$DW$136	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$136, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$136, DW_AT_TI_call
 	.dwattr $C$DW$136, DW_AT_TI_indirect
 
-        LCR       *XAR7                 ; [CPU_ALU] |202| 
-        ; call occurs [XAR7] ; [] |202| 
-	.dwpsn	file "../clllc_main.c",line 206,column 5,is_stmt,isa 0
-        B         ||$C$L5||,UNC         ; [CPU_ALU] |206| 
-        ; branch occurs ; [] |206| 
+        LCR       *XAR7                 ; [CPU_ALU] |210| 
+        ; call occurs [XAR7] ; [] |210| 
+	.dwpsn	file "../clllc_main.c",line 214,column 5,is_stmt,isa 0
+        B         ||$C$L5||,UNC         ; [CPU_ALU] |214| 
+        ; branch occurs ; [] |214| 
 	.dwattr $C$DW$113, DW_AT_TI_end_file("../clllc_main.c")
-	.dwattr $C$DW$113, DW_AT_TI_end_line(0xcf)
+	.dwattr $C$DW$113, DW_AT_TI_end_line(0xd7)
 	.dwattr $C$DW$113, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$113
@@ -3824,11 +3824,11 @@ $C$DW$267	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$267, DW_AT_linkage_name("ISR3")
 	.dwattr $C$DW$267, DW_AT_external
 	.dwattr $C$DW$267, DW_AT_decl_file("../clllc_main.c")
-	.dwattr $C$DW$267, DW_AT_decl_line(0x115)
+	.dwattr $C$DW$267, DW_AT_decl_line(0x11d)
 	.dwattr $C$DW$267, DW_AT_decl_column(0x10)
 	.dwattr $C$DW$267, DW_AT_TI_interrupt
 	.dwattr $C$DW$267, DW_AT_TI_max_frame_size(-26)
-	.dwpsn	file "../clllc_main.c",line 278,column 1,is_stmt,address ||ISR3||,isa 0
+	.dwpsn	file "../clllc_main.c",line 286,column 1,is_stmt,address ||ISR3||,isa 0
 
 	.dwfde $C$DW$CIE, ||ISR3||
 
@@ -3896,14 +3896,14 @@ $C$DW$267	.dwtag  DW_TAG_subprogram
         MOVL      XAR4,#65536           ; [CPU_ARAU] |341| 
         SPM       #0                    ; [CPU_ALU] 
         MOV32     *(0:0x7f02),XAR4      ; [CPU_FPU] |341| 
-	.dwpsn	file "../clllc_main.c",line 281,column 5,is_stmt,isa 0
+	.dwpsn	file "../clllc_main.c",line 289,column 5,is_stmt,isa 0
 $C$DW$268	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$268, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$268, DW_AT_name("CLLLC_runISR3")
 	.dwattr $C$DW$268, DW_AT_TI_call
 
-        LCR       #||CLLLC_runISR3||    ; [CPU_ALU] |281| 
-        ; call occurs [#||CLLLC_runISR3||] ; [] |281| 
+        LCR       #||CLLLC_runISR3||    ; [CPU_ALU] |289| 
+        ; call occurs [#||CLLLC_runISR3||] ; [] |289| 
 	.dwpsn	file "..\clllc_hal.h",line 351,column 5,is_stmt,isa 0
         MOVL      XAR4,#65536           ; [CPU_ARAU] |351| 
         MOV32     *(0:0x7f04),XAR4      ; [CPU_FPU] |351| 
@@ -3958,7 +3958,7 @@ $C$DW$269	.dwtag  DW_TAG_TI_branch
         IRET      ; [CPU_ALU] 
         ; return occurs ; [] 
 	.dwattr $C$DW$267, DW_AT_TI_end_file("../clllc_main.c")
-	.dwattr $C$DW$267, DW_AT_TI_end_line(0x11d)
+	.dwattr $C$DW$267, DW_AT_TI_end_line(0x125)
 	.dwattr $C$DW$267, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$267
@@ -3975,11 +3975,11 @@ $C$DW$270	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$270, DW_AT_linkage_name("ISR2_secToPrimPowerFlow")
 	.dwattr $C$DW$270, DW_AT_external
 	.dwattr $C$DW$270, DW_AT_decl_file("../clllc_main.c")
-	.dwattr $C$DW$270, DW_AT_decl_line(0x105)
+	.dwattr $C$DW$270, DW_AT_decl_line(0x10d)
 	.dwattr $C$DW$270, DW_AT_decl_column(0x10)
 	.dwattr $C$DW$270, DW_AT_TI_interrupt
 	.dwattr $C$DW$270, DW_AT_TI_max_frame_size(-36)
-	.dwpsn	file "../clllc_main.c",line 262,column 1,is_stmt,address ||ISR2_secToPrimPowerFlow||,isa 0
+	.dwpsn	file "../clllc_main.c",line 270,column 1,is_stmt,address ||ISR2_secToPrimPowerFlow||,isa 0
 
 	.dwfde $C$DW$CIE, ||ISR2_secToPrimPowerFlow||
 
@@ -4090,10 +4090,10 @@ $C$DW$272	.dwtag  DW_TAG_variable
 	.dwcfi	cfa_offset, -36
         CLRC      PAGE0,OVM             ; [CPU_ALU] 
         CLRC      AMODE                 ; [CPU_ALU] 
-	.dwpsn	file "../clllc_main.c",line 266,column 5,is_stmt,isa 0
-        OR        IER,#0x0004           ; [CPU_ALU] |266| 
-	.dwpsn	file "../clllc_main.c",line 267,column 5,is_stmt,isa 0
-        AND       IER,#0x0004           ; [CPU_ALU] |267| 
+	.dwpsn	file "../clllc_main.c",line 274,column 5,is_stmt,isa 0
+        OR        IER,#0x0004           ; [CPU_ALU] |274| 
+	.dwpsn	file "../clllc_main.c",line 275,column 5,is_stmt,isa 0
+        AND       IER,#0x0004           ; [CPU_ALU] |275| 
  clrc INTM
 	.dwpsn	file "..\clllc_hal.h",line 321,column 5,is_stmt,isa 0
         MOV       ACC,#1024 << 15       ; [CPU_ALU] |321| 
@@ -4748,7 +4748,7 @@ $C$DW$273	.dwtag  DW_TAG_TI_branch
         IRET      ; [CPU_ALU] 
         ; return occurs ; [] 
 	.dwattr $C$DW$270, DW_AT_TI_end_file("../clllc_main.c")
-	.dwattr $C$DW$270, DW_AT_TI_end_line(0x112)
+	.dwattr $C$DW$270, DW_AT_TI_end_line(0x11a)
 	.dwattr $C$DW$270, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$270
@@ -4765,11 +4765,11 @@ $C$DW$274	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$274, DW_AT_linkage_name("ISR2_primToSecPowerFlow")
 	.dwattr $C$DW$274, DW_AT_external
 	.dwattr $C$DW$274, DW_AT_decl_file("../clllc_main.c")
-	.dwattr $C$DW$274, DW_AT_decl_line(0xf6)
+	.dwattr $C$DW$274, DW_AT_decl_line(0xfe)
 	.dwattr $C$DW$274, DW_AT_decl_column(0x10)
 	.dwattr $C$DW$274, DW_AT_TI_interrupt
 	.dwattr $C$DW$274, DW_AT_TI_max_frame_size(-60)
-	.dwpsn	file "../clllc_main.c",line 247,column 1,is_stmt,address ||ISR2_primToSecPowerFlow||,isa 0
+	.dwpsn	file "../clllc_main.c",line 255,column 1,is_stmt,address ||ISR2_primToSecPowerFlow||,isa 0
 
 	.dwfde $C$DW$CIE, ||ISR2_primToSecPowerFlow||
 
@@ -4922,10 +4922,10 @@ $C$DW$277	.dwtag  DW_TAG_variable
         SPM       0                     ; [CPU_ALU] 
         CLRC      PAGE0,OVM             ; [CPU_ALU] 
         CLRC      AMODE                 ; [CPU_ALU] 
-	.dwpsn	file "../clllc_main.c",line 251,column 5,is_stmt,isa 0
-        OR        IER,#0x0004           ; [CPU_ALU] |251| 
-	.dwpsn	file "../clllc_main.c",line 252,column 5,is_stmt,isa 0
-        AND       IER,#0x0004           ; [CPU_ALU] |252| 
+	.dwpsn	file "../clllc_main.c",line 259,column 5,is_stmt,isa 0
+        OR        IER,#0x0004           ; [CPU_ALU] |259| 
+	.dwpsn	file "../clllc_main.c",line 260,column 5,is_stmt,isa 0
+        AND       IER,#0x0004           ; [CPU_ALU] |260| 
  clrc INTM
 	.dwpsn	file "..\clllc_hal.h",line 321,column 5,is_stmt,isa 0
         MOV       ACC,#1024 << 15       ; [CPU_ALU] |321| 
@@ -5876,7 +5876,7 @@ $C$DW$279	.dwtag  DW_TAG_TI_branch
         IRET      ; [CPU_ALU] 
         ; return occurs ; [] 
 	.dwattr $C$DW$274, DW_AT_TI_end_file("../clllc_main.c")
-	.dwattr $C$DW$274, DW_AT_TI_end_line(0x103)
+	.dwattr $C$DW$274, DW_AT_TI_end_line(0x10b)
 	.dwattr $C$DW$274, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$274
@@ -5893,11 +5893,11 @@ $C$DW$280	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$280, DW_AT_linkage_name("ISR1_second")
 	.dwattr $C$DW$280, DW_AT_external
 	.dwattr $C$DW$280, DW_AT_decl_file("../clllc_main.c")
-	.dwattr $C$DW$280, DW_AT_decl_line(0xe7)
+	.dwattr $C$DW$280, DW_AT_decl_line(0xef)
 	.dwattr $C$DW$280, DW_AT_decl_column(0x10)
 	.dwattr $C$DW$280, DW_AT_TI_interrupt
 	.dwattr $C$DW$280, DW_AT_TI_max_frame_size(-4)
-	.dwpsn	file "../clllc_main.c",line 232,column 1,is_stmt,address ||ISR1_second||,isa 0
+	.dwpsn	file "../clllc_main.c",line 240,column 1,is_stmt,address ||ISR1_second||,isa 0
 
 	.dwfde $C$DW$CIE, ||ISR1_second||
 
@@ -5960,7 +5960,7 @@ $C$DW$281	.dwtag  DW_TAG_TI_branch
         IRET      ; [CPU_ALU] 
         ; return occurs ; [] 
 	.dwattr $C$DW$280, DW_AT_TI_end_file("../clllc_main.c")
-	.dwattr $C$DW$280, DW_AT_TI_end_line(0xf2)
+	.dwattr $C$DW$280, DW_AT_TI_end_line(0xfa)
 	.dwattr $C$DW$280, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$280
@@ -5977,11 +5977,11 @@ $C$DW$282	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$282, DW_AT_linkage_name("ISR1")
 	.dwattr $C$DW$282, DW_AT_external
 	.dwattr $C$DW$282, DW_AT_decl_file("../clllc_main.c")
-	.dwattr $C$DW$282, DW_AT_decl_line(0xd8)
+	.dwattr $C$DW$282, DW_AT_decl_line(0xe0)
 	.dwattr $C$DW$282, DW_AT_decl_column(0x10)
 	.dwattr $C$DW$282, DW_AT_TI_interrupt
 	.dwattr $C$DW$282, DW_AT_TI_max_frame_size(-10)
-	.dwpsn	file "../clllc_main.c",line 217,column 1,is_stmt,address ||ISR1||,isa 0
+	.dwpsn	file "../clllc_main.c",line 225,column 1,is_stmt,address ||ISR1||,isa 0
 
 	.dwfde $C$DW$CIE, ||ISR1||
 
@@ -6130,7 +6130,7 @@ $C$DW$289	.dwtag  DW_TAG_TI_branch
         IRET      ; [CPU_ALU] 
         ; return occurs ; [] 
 	.dwattr $C$DW$282, DW_AT_TI_end_file("../clllc_main.c")
-	.dwattr $C$DW$282, DW_AT_TI_end_line(0xe3)
+	.dwattr $C$DW$282, DW_AT_TI_end_line(0xeb)
 	.dwattr $C$DW$282, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$282
@@ -6732,7 +6732,7 @@ $C$DW$324	.dwtag  DW_TAG_member
 	.dwattr $C$DW$324, DW_AT_name("_Vals")
 	.dwattr $C$DW$324, DW_AT_accessibility(DW_ACCESS_public)
 	.dwattr $C$DW$324, DW_AT_decl_file("..\clllc_hal.h")
-	.dwattr $C$DW$324, DW_AT_decl_line(0x1e1)
+	.dwattr $C$DW$324, DW_AT_decl_line(0x1e3)
 	.dwattr $C$DW$324, DW_AT_decl_column(0x14)
 
 	.dwendtag $C$DW$T$26
@@ -6746,7 +6746,7 @@ $C$DW$T$49	.dwtag  DW_TAG_typedef
 	.dwattr $C$DW$T$49, DW_AT_name("_Complex_double")
 	.dwattr $C$DW$T$49, DW_AT_type(*$C$DW$T$26)
 	.dwattr $C$DW$T$49, DW_AT_decl_file("..\clllc_hal.h")
-	.dwattr $C$DW$T$49, DW_AT_decl_line(0x1e1)
+	.dwattr $C$DW$T$49, DW_AT_decl_line(0x1e3)
 	.dwattr $C$DW$T$49, DW_AT_decl_column(0x14)
 
 	.dwendtag $C$DW$TU$49
@@ -6763,7 +6763,7 @@ $C$DW$325	.dwtag  DW_TAG_member
 	.dwattr $C$DW$325, DW_AT_name("_Vals")
 	.dwattr $C$DW$325, DW_AT_accessibility(DW_ACCESS_public)
 	.dwattr $C$DW$325, DW_AT_decl_file("..\clllc_hal.h")
-	.dwattr $C$DW$325, DW_AT_decl_line(0x1e1)
+	.dwattr $C$DW$325, DW_AT_decl_line(0x1e3)
 	.dwattr $C$DW$325, DW_AT_decl_column(0x14)
 
 	.dwendtag $C$DW$T$28
@@ -6777,7 +6777,7 @@ $C$DW$T$50	.dwtag  DW_TAG_typedef
 	.dwattr $C$DW$T$50, DW_AT_name("_Complex_float")
 	.dwattr $C$DW$T$50, DW_AT_type(*$C$DW$T$28)
 	.dwattr $C$DW$T$50, DW_AT_decl_file("..\clllc_hal.h")
-	.dwattr $C$DW$T$50, DW_AT_decl_line(0x1e1)
+	.dwattr $C$DW$T$50, DW_AT_decl_line(0x1e3)
 	.dwattr $C$DW$T$50, DW_AT_decl_column(0x14)
 
 	.dwendtag $C$DW$TU$50
@@ -6794,7 +6794,7 @@ $C$DW$326	.dwtag  DW_TAG_member
 	.dwattr $C$DW$326, DW_AT_name("_Vals")
 	.dwattr $C$DW$326, DW_AT_accessibility(DW_ACCESS_public)
 	.dwattr $C$DW$326, DW_AT_decl_file("..\clllc_hal.h")
-	.dwattr $C$DW$326, DW_AT_decl_line(0x1e1)
+	.dwattr $C$DW$326, DW_AT_decl_line(0x1e3)
 	.dwattr $C$DW$326, DW_AT_decl_column(0x14)
 
 	.dwendtag $C$DW$T$30
@@ -6808,7 +6808,7 @@ $C$DW$T$52	.dwtag  DW_TAG_typedef
 	.dwattr $C$DW$T$52, DW_AT_name("_Complex_long_double")
 	.dwattr $C$DW$T$52, DW_AT_type(*$C$DW$T$30)
 	.dwattr $C$DW$T$52, DW_AT_decl_file("..\clllc_hal.h")
-	.dwattr $C$DW$T$52, DW_AT_decl_line(0x1e1)
+	.dwattr $C$DW$T$52, DW_AT_decl_line(0x1e3)
 	.dwattr $C$DW$T$52, DW_AT_decl_column(0x14)
 
 	.dwendtag $C$DW$TU$52

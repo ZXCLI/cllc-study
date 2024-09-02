@@ -674,12 +674,12 @@ void CLLLC_HAL_setupBoardProtection()
     EPWM_clearTripZoneFlag(CLLLC_SEC_LEG1_PWM_BASE ,
                            (EPWM_TZ_INTERRUPT_OST | EPWM_TZ_INTERRUPT_DCAEVT1));
     EPWM_clearTripZoneFlag(CLLLC_SEC_LEG2_PWM_BASE ,
-                           (EPWM_TZ_INTERRUPT_OST | EPWM_TZ_INTERRUPT_DCAEVT1));
+                           (EPWM_TZ_INTERRUPT_OST | EPWM_TZ_INTERRUPT_DCAEVT1));//清除因为未知原因而误触发的trip事件
 
     EPWM_forceTripZoneEvent(CLLLC_PRIM_LEG1_PWM_BASE, EPWM_TZ_FORCE_EVENT_OST);
     EPWM_forceTripZoneEvent(CLLLC_PRIM_LEG2_PWM_BASE, EPWM_TZ_FORCE_EVENT_OST);
     EPWM_forceTripZoneEvent(CLLLC_SEC_LEG1_PWM_BASE, EPWM_TZ_FORCE_EVENT_OST);
-    EPWM_forceTripZoneEvent(CLLLC_SEC_LEG2_PWM_BASE, EPWM_TZ_FORCE_EVENT_OST);
+    EPWM_forceTripZoneEvent(CLLLC_SEC_LEG2_PWM_BASE, EPWM_TZ_FORCE_EVENT_OST);//强制触发trip事件，保证其他外设未配置完之前不会发波
 }
 
 void CLLLC_HAL_setupSynchronousRectificationAction(uint16_t powerFlow)

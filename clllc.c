@@ -33,13 +33,13 @@
 
 CLLLC_Lab_EnumType CLLLC_Lab;
 
-CLLLC_TripFlag_EnumType CLLLC_tripFlag;
+CLLLC_TripFlag_EnumType CLLLC_tripFlag; // 系统状态
 
-CLLLC_PwmSwState_EnumType CLLLC_pwmSwStateActive, CLLLC_pwmSwState;
+CLLLC_PwmSwState_EnumType CLLLC_pwmSwStateActive, CLLLC_pwmSwState; // PWM开关状态
 
-CLLLC_PowerFlowState_EnumType CLLLC_powerFlowStateActive, CLLLC_powerFlowState;
+CLLLC_PowerFlowState_EnumType CLLLC_powerFlowStateActive, CLLLC_powerFlowState;//系统功率流向
 
-CLLLC_CommandSentTo_AC_DC_EnumType CLLLC_commandSentTo_AC_DC;
+CLLLC_CommandSentTo_AC_DC_EnumType CLLLC_commandSentTo_AC_DC; // 发送给前级ACDC的指令
 
 CLLLC_GI CLLLC_gi;//电流环
 float32_t CLLLC_giOut;//电流环输出

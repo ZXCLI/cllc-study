@@ -79,12 +79,12 @@ void main(void)
     // the background 1, 2 & 3) task for this system (CPU time)
     //
 
-    CLLLC_HAL_setupDevice();
+    CLLLC_HAL_setupDevice();//初始化设备，包括PLL，FLASH到RAM的复制，CPU定时器初始化
 
     //
     // Initialize global variables
     //
-    CLLLC_initGlobalVariables();
+    CLLLC_initGlobalVariables();//初始化全局变量
 
     //
     // Tasks State-machine init
@@ -96,13 +96,14 @@ void main(void)
     //
     // Stop all PWM mode clock
     //
-    CLLLC_HAL_disablePWMClkCounting();
+    CLLLC_HAL_disablePWMClkCounting();//关闭PWM时钟
 
     //
     // Sets up the PWMs for the CLLC prim and sec bridges
     // by default the PWMs are set as battery charging mode
     //
     CLLLC_HAL_setupPWM(CLLLC_powerFlowStateActive.CLLLC_PowerFlowState_Enum);
+    //配置PWM，包括设置高分辨率，计数模式，死区，移相，同步脉冲，ePWM链接，全局加载
 
     //
     // as LLC is resonant and frequency changes,
@@ -111,19 +112,22 @@ void main(void)
     CLLLC_HAL_setupPWMinUpDownCountMode(CLLLC_ISR2_PWM_BASE,
                                CLLLC_ISR2_FREQUENCY_HZ,
                                CLLLC_PWMSYSCLOCK_FREQ_HZ);
+    //配置TB，AQ模块
+
     CLLLC_HAL_setupECAPinPWMMode(CLLLC_ISR2_ECAP_BASE,
                                  CLLLC_ISR2_FREQUENCY_HZ,
                                  CLLLC_PWMSYSCLOCK_FREQ_HZ);
+    //配置ECAP
 
     //
     // power up ADC on the device
     //
-    CLLLC_HAL_setupADC();
+    CLLLC_HAL_setupADC();//配置ADC
 
     //
     // Iprim is sensed by PGA, setup the peripherals
     //
-    CLLLC_HAL_setupIprimSensedSignalChain();
+    CLLLC_HAL_setupIprimSensedSignalChain();//配置Iprim信号链，包括PGA和DAC
 
     //
     // Profiling GPIO
@@ -140,18 +144,21 @@ void main(void)
     //
     CLLLC_HAL_setupSynchronousRectificationAction(
             CLLLC_powerFlowStateActive.CLLLC_PowerFlowState_Enum);
+    //配置CMPSS，为了同步整流。同步整流侧PWM开启和另一侧同步，PWM的关闭由谐振电流过零决定
 
     //
     // brings out the blanked CMPSS signal on GPIO for debug
     //
     CLLLC_HAL_setupSynchronousRectificationActionDebug(
             CLLLC_powerFlowStateActive.CLLLC_PowerFlowState_Enum);
+    //将CMPSS信号输出到GPIO，用于调试
 
     //
     // clear any spurious flags
     // setup protection and trips for the board
     //
     CLLLC_HAL_setupBoardProtection();
+    //配置保护
 
     //
     // set's a global variable that indicates which build level is running
@@ -159,17 +166,18 @@ void main(void)
     // Changes to this variable through the expressions view has no effect
     //
     CLLLC_setBuildLevelIndicatorVariable();
+    //设置全局变量，指示当前运行的是哪个版本
 
     //
     // setup trigger for the ADC conversions
     //
-    CLLLC_HAL_setupTrigForADC();
+    CLLLC_HAL_setupTrigForADC();//配置ADC触发
 
     //
     // setup PWM pins
     //
     CLLLC_HAL_setupPWMpins(
-            pwmSwState_synchronousRectification_active);
+            pwmSwState_synchronousRectification_active);//配置PWM引脚
 
     #if CLLLC_SFRA_TYPE == CLLLC_SFRA_DISABLED
     #else
@@ -186,7 +194,7 @@ void main(void)
     //
     // Enable PWM Clocks
     //
-    CLLLC_HAL_enablePWMClkCounting();
+    CLLLC_HAL_enablePWMClkCounting();//开启PWM时钟
 
     //
     // IDLE loop. Just sit and loop forever, periodically will branch into
@@ -366,7 +374,7 @@ void A1(void)
 void B1(void)
 {
 
-    CLLLC_updateBoardStatus();
+    CLLLC_updateBoardStatus();//读取保护状态
 
     //
     //the next time CpuTimer1 'counter' reaches Period value go to B2

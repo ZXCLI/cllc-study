@@ -1,7 +1,7 @@
 ******************************************************************************
              TMS320C2000 Linker PC v22.6.0                     
 ******************************************************************************
->> Linked Fri Aug 16 16:21:34 2024
+>> Linked Mon Sep  2 13:26:25 2024
 
 OUTPUT FILE NAME:   <clllc_nonpowerSUITE_F28004x.out>
 ENTRY POINT SYMBOL: "code_start"  address: 00080000

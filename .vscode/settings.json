@@ -3,6 +3,10 @@
     "files.associations": {
         "clllc.h": "c",
         "clllc_hal.h": "c",
-        "sfo_v8.h": "c"
+        "sfo_v8.h": "c",
+        "stdint.h": "c",
+        "stddef.h": "c",
+        "math.h": "c",
+        "clllc_settings.h": "c"
     }
 }
