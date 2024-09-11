@@ -73,11 +73,11 @@ uint32_t CLLLC_pwmPeriod_ticks;
 //
 // 1- Primary Side (PFC-Inv/Bus)
 //
-float32_t CLLLC_iPrimSensed_Amps;
-float32_t CLLLC_iPrimSensed_pu;
+float32_t CLLLC_iPrimSensed_Amps;//初级侧电流
+float32_t CLLLC_iPrimSensed_pu;//初级侧电流标幺值，下面的斜率和截距校正是给这个量的
 float32_t CLLLC_iPrimSensedOffset_pu;
-float32_t CLLLC_iPrimSensedCalIntercept_pu;
-float32_t CLLLC_iPrimSensedCalXvariable_pu;
+float32_t CLLLC_iPrimSensedCalIntercept_pu;//截距校正
+float32_t CLLLC_iPrimSensedCalXvariable_pu;//斜率校正
 EMAVG CLLLC_iPrimSensedAvg_pu;
 
 float32_t CLLLC_iPrimTankSensed_Amps;
@@ -110,11 +110,11 @@ uint32_t CLLLC_pwmDeadBandFEDPrim_ticks;
 //
 // 2-Secondary side (Battery)
 //
-float32_t CLLLC_iSecSensed_Amps;
-float32_t CLLLC_iSecSensed_pu;
+float32_t CLLLC_iSecSensed_Amps;//次级侧电流
+float32_t CLLLC_iSecSensed_pu;//次级侧电流标幺值，下面的斜率和截距校正是给这个量的
 float32_t CLLLC_iSecSensedOffset_pu;
-float32_t CLLLC_iSecSensedCalIntercept_pu;
-float32_t CLLLC_iSecSensedCalXvariable_pu;
+float32_t CLLLC_iSecSensedCalIntercept_pu;//截距校正
+float32_t CLLLC_iSecSensedCalXvariable_pu;//斜率校正
 EMAVG CLLLC_iSecSensedAvg_pu;
 
 volatile float32_t CLLLC_iSecRef_Amps;
@@ -188,7 +188,7 @@ void CLLLC_runISR3(void)
     EMAVG_run(&CLLLC_iSecSensedAvg_pu, CLLLC_iSecSensed_pu);
     EMAVG_run(&CLLLC_iPrimSensedAvg_pu, CLLLC_iPrimSensed_pu);
     EMAVG_run(&CLLLC_vSecSensedAvg_pu, CLLLC_vSecSensed_pu);
-    EMAVG_run(&CLLLC_vPrimSensedAvg_pu, CLLLC_vPrimSensed_pu);
+    EMAVG_run(&CLLLC_vPrimSensedAvg_pu, CLLLC_vPrimSensed_pu);//滑动均值滤波
 
     CLLLC_vPrimSensed_Volts = CLLLC_vPrimSensedAvg_pu.out *
                              CLLLC_VPRIM_MAX_SENSE_VOLTS;

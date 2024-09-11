@@ -422,17 +422,17 @@ static inline void CLLLC_readSensedSignalsPrimToSecPowerFlow(void)
 {
     CLLLC_iPrimSensed_pu = ((float32_t)CLLLC_IPRIM_ADCREAD *
                                        CLLLC_ADC_PU_SCALE_FACTOR
-                   - CLLLC_iPrimSensedOffset_pu) * -2.0;
+                   - CLLLC_iPrimSensedOffset_pu) * -2.0; // 初级电流
 
     CLLLC_iSecSensed_pu =  ((float32_t)CLLLC_ISEC_OVERSAMPLE_ADCREAD *
                                        CLLLC_ADC_PU_SCALE_FACTOR
-                   - CLLLC_iSecSensedOffset_pu) * 2.0;
+                   - CLLLC_iSecSensedOffset_pu) * 2.0;  // 次级电流
     CLLLC_vPrimSensed_pu = ((float32_t)CLLLC_VPRIM_OVERSAMPLE_ADCREAD *
                                        CLLLC_ADC_PU_SCALE_FACTOR
-                   - CLLLC_vPrimSensedOffset_pu);
+                   - CLLLC_vPrimSensedOffset_pu);       // 初级电压
     CLLLC_vSecSensed_pu =  ( (float32_t)CLLLC_VSEC_OVERSAMPLE_ADCREAD *
                                         CLLLC_ADC_PU_SCALE_FACTOR
-                   - CLLLC_vSecSensedOffset_pu);
+                   - CLLLC_vSecSensedOffset_pu);        // 次级电压
 
     CLLLC_vSecSensed_pu = CLLLC_vSecSensed_pu *
                   (CLLLC_VSEC_MAX_SENSE_VOLTS / CLLLC_VSEC_OPTIMAL_RANGE_VOLTS);
