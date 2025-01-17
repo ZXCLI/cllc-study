@@ -4,7 +4,7 @@
 
 SHELL = cmd.exe
 
-CG_TOOL_ROOT := C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS
+CG_TOOL_ROOT := C:/ti/ccstheia150/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259
 
 GEN_OPTS__FLAG := 
 GEN_CMDS__FLAG := 
@@ -143,10 +143,10 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXE_OUTPUTS += \
-clllc_nonpowerSUITE_F28004x.out \
+clllc_nonpowerSUITE_F28004x.out 
 
 EXE_OUTPUTS__QUOTED += \
-"clllc_nonpowerSUITE_F28004x.out" \
+"clllc_nonpowerSUITE_F28004x.out" 
 
 
 # All Target
@@ -157,7 +157,7 @@ all: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
 clllc_nonpowerSUITE_F28004x.out: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: C2000 Linker'
-	"C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -O3 --opt_for_speed=5 --fp_mode=relaxed --define=_DEBUG --define=CLA_DEBUG=1 --define=F28x_DEVICE --define=CPU1 --define=LARGE_MODEL --define=_FLASH -g --diag_suppress=10063 --diag_suppress=173 --diag_warning=225 --diag_wrap=off --display_error_number --quiet --abi=eabi --cla_background_task=on -k --asm_listing -z -m"clllc_nonpowerSUITE_F28004x.map" --heap_size=0x200 --stack_size=0x400 --warn_sections -i"C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE_F28004x/libraries/sfra" -i"C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE_F28004x/libraries/CLAmath" -i"C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE_F28004x/libraries/FPUfastRTS" -i"C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE_F28004x/device/driverlib/ccs/Release" -i"C:/Users/ZXC/Documents/mcu project/ti-project/clllc_nonpowerSUITE_F28004x/libraries/SFO" -i"C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="clllc_nonpowerSUITE_F28004x_linkInfo.xml" --entry_point=code_start --rom_model -o "clllc_nonpowerSUITE_F28004x.out" $(ORDERED_OBJS)
+	"C:/ti/ccstheia150/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -O3 --opt_for_speed=5 --fp_mode=relaxed --define=_DEBUG --define=CLA_DEBUG=1 --define=F28x_DEVICE --define=CPU1 --define=LARGE_MODEL --define=_FLASH -g --diag_suppress=10063 --diag_suppress=173 --diag_warning=225 --diag_wrap=off --display_error_number --quiet --abi=eabi --cla_background_task=on -k --asm_listing -z -m"clllc_nonpowerSUITE_F28004x.map" --heap_size=0x200 --stack_size=0x400 --warn_sections -i"C:/ti/ccstheia150/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/lib" -i"C:/Users/ZXC/Documents/mcu-project/ti-project/clllc_nonpowerSUITE_F28004x/libraries/sfra" -i"C:/Users/ZXC/Documents/mcu-project/ti-project/clllc_nonpowerSUITE_F28004x/libraries/CLAmath" -i"C:/Users/ZXC/Documents/mcu-project/ti-project/clllc_nonpowerSUITE_F28004x/libraries/FPUfastRTS" -i"C:/Users/ZXC/Documents/mcu-project/ti-project/clllc_nonpowerSUITE_F28004x/device/driverlib/ccs/Release" -i"C:/Users/ZXC/Documents/mcu-project/ti-project/clllc_nonpowerSUITE_F28004x/libraries/SFO" -i"C:/ti/ccstheia150/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="clllc_nonpowerSUITE_F28004x_linkInfo.xml" --entry_point=code_start --rom_model -o "clllc_nonpowerSUITE_F28004x.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 

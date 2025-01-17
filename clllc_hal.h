@@ -427,7 +427,7 @@ static inline void CLLLC_HAL_setupInterrupt(uint16_t powerFlow)
 
 
 
-    ECAP_enableInterrupt(CLLLC_ISR2_ECAP_BASE, ECAP_ISR_SOURCE_COUNTER_PERIOD);//使能ECAP1的计数器周期中断
+    ECAP_enableInterrupt(CLLLC_ISR2_ECAP_BASE, ECAP_ISR_SOURCE_COUNTER_PERIOD);//使能ECAP1的计数器等于周期中断
 
 
     CPUTimer_enableInterrupt(CLLLC_ISR3_TIMEBASE);

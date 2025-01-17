@@ -231,12 +231,12 @@ interrupt void ISR1(void)   //初级和次级的PWM不是每个周期都同步�
    //
    // CLLLC_HAL_resetProfilingGPIO1();
    //
-    Interrupt_register(CLLLC_ISR1_TRIG, &ISR1_second);
+    Interrupt_register(CLLLC_ISR1_TRIG, &ISR1_second);// 下一次IRS1变成IRS1_second()
 }
 #endif
 
 #if CLLLC_ISR1_RUNNING_ON == C28x_CORE
-interrupt void ISR1_second(void)
+interrupt void ISR1_second(void) // 第二次运行IRS1，用于关闭同步功能
 {
   //
   //  CLLLC_HAL_setProfilingGPIO1();
@@ -255,7 +255,7 @@ interrupt void ISR2_primToSecPowerFlow(void)    //触发ADC转换
 {                                               //计算PWM占空比，频率
     //
     // enable group 3 interrupt only to interrupt ISR2
-    //
+    // 只允许组3中断来中断ISR2(ISR1可以嵌套在ISR2中)
     IER |= 0x4;
     IER &= 0x4;
     EINT;
@@ -356,7 +356,7 @@ void A1(void)
     CLLLC_runSFRABackGroundTasks();
 #endif
 
-    CLLLC_changeSynchronousRectifierPwmBehavior(CLLLC_POWER_FLOW);
+    CLLLC_changeSynchronousRectifierPwmBehavior(CLLLC_POWER_FLOW);// 同步整流的PWM同步
 
     //
     //the next time CpuTimer0 'counter' reaches Period value go to A2
